@@ -27,7 +27,7 @@
 + Acknoledgements
 
 
-1 ### UX
+### 1. UX
 
 #### Primary Goals 
 
@@ -67,15 +67,44 @@ The main business goal is to bring in new clients by increasing membership intak
  + #CFFFE2 Mint
  + #A2D5C6 light-cyan
 + #F6F6F6 grey 
-+ I have chosen these colors because black gives it a minimalist feel and has been shwon to add a sense of power as well as the light grey to contrast well with the black and to offer a sense of simplicity and to make it feel larger. The mint and light cyan colours have been added as they have been shown  to offer a sense of tranquility and feeling refreshed. All of these i beleive are key takeaways from what multiple people hope to feel after a gym session.     
++ I have chosen these colors because black gives it a minimalist feel and has been shwon to add a sense of power as well as the light grey to contrast well with the black and to offer a sense of simplicity and to make it feel larger. The mint and light cyan colours have been added as they have been shown  to offer a sense of tranquility and feeling refreshed. All of these i beleive are key takeaways from what multiple people hope to feel after a gym session. 
+
 ##### Styling
-
++ Firstly the overall responsivness of the website will use bootstrap grid properties with a mixture of built in bootstrap styling and and overiding styles will use a local CSS file.
++ Fonts for styling have been imported from [google fonts.](https://fonts.google.com/selection/embed)
++ The overall colour scheme for the styling has been chosen from [color palete.](https://colorhunt.co/palette/000000cfffe2a2d5c6f6f6f6)  
++ Any favicons added in both the title and within any headings and link for readibility will be taken from [fontawesome.](https://fontawesome.com/)
 ##### Background 
-
++ The navbar and footer will be styled with a black background and the light grey from the chosen colours will be used for the font in these for contrast and readability.
++ The main content will use a mixture of the mint and light-cyan to compliment each other with the content being black
 ##### images
 
 ##### Wireframes
 
+ ### 2. Features 
+
+ #### Existing Features
+
+ #### Features left to implement
+
+ ### 3. Technologies used
+
+ ### 4. Testing
+
+ ### 5. Deployment
+ + To simply run this project use [thislink](#)
+ #### To download and work on the code yourself. 
+ 1. 
+
+### 6. Credits
+#### Content 
+#### Media 
+#### Code 
++ responsiveness grid from [bootstrap](https://getbootstrap.com/)
+#### Acknoledgements
++ fonts imported from [google fonts.](https://fonts.google.com/selection/embed) 
++ favicons from [fontawesome.](https://fontawesome.com/) 
++ colourscheme from [color palete.](https://colorhunt.co/palette/000000cfffe2a2d5c6f6f6f6) 
 
 
 
@@ -90,6 +119,3 @@ The main business goal is to bring in new clients by increasing membership intak
 
 
 
-
-
-colour palete https://colorhunt.co/palette/000000cfffe2a2d5c6f6f6f6
