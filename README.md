@@ -58,6 +58,9 @@ The main business goal is to bring in new clients by increasing membership intak
 
 #### Design Choices
 ##### Fonts
++ Archivo black-Titles
++ Kite One- paragraphs 
++ Archivo one because it is bold and strong and refrences weighgt lifting and Kite one has been chosen for main content as it is easily readable, contrasts well to Archivo and is more of an active looking font to refrence the cardio aspects of gym life.
 
 ##### Colours
  + #000000 black
