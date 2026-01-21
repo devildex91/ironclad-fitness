@@ -80,6 +80,11 @@ The main business goal is to bring in new clients by increasing membership intak
 ##### images
 
 ##### Wireframes
++ [click here for <576 wireframe](./assets/images/Ironclad%20Fitness%20phoneframe.png)
++ [click here for >=768 wireframe](./assets/images/Ironclad%20fitness%20tabletframe.png)
++ [click here for >= 992 wireframe](#)
+
+
 
  ### 2. Features 
 
