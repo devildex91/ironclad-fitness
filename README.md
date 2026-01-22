@@ -44,17 +44,20 @@ The main business goal is to bring in new clients by increasing membership intak
 
 #### User Stories
  + For full Acceptance Criteria and tasks please follow [this link](https://github.com/users/devildex91/projects/4) to the project board for Ironclad Fitness
+
  +  As a first time visiter to the site I would like everything to be easy to find to so i can easily navigate to wherever I would like to on the site.
 
- + As a member i would like access to a weekly timetable of classes and special events that are happening as well as an ability to book my spot on these classes.
+ + As a member I would like access to a weekly timetable of classes and special events that are happening.
 
  + As I have a very busy schedule i would like to be able to find out the busiest times of day by visiting your website so i can fit my visits around my lifestyle without standing around waiting for machines and equipment.
   
   + As a potential new customer i would like to see some images of the different parts of the gym so i can see what machines are being used and to make sure it has the right feel for me.
 
-  + I would like to be able able to view this website on any of my devices so i can check out classes or book my place on the go.
+  + I would like to be able able to view this website on any of my devices so i manage my membership on the go. 
   
   + As a customer I would like to know what experience and qualifications the staff have to make sure that they will be able to help me if i need it. 
+
+  + As a current member I would like to be able to book my place on classes through the website.
 
 #### Design Choices
 ##### Fonts
@@ -79,6 +82,8 @@ The main business goal is to bring in new clients by increasing membership intak
 + The main content will use a mixture of the mint and light-cyan to compliment each other with the content being black
 ##### images
 
+All images have been sourced from [pexels.com](https://www.pexels.com/)
+
 ##### Wireframes
 + number of pictures in take the tour page are just for layout purposes as number of photos will likely increase for finished website. 
 + [click here for <576 wireframe](./assets/images/Ironclad%20Fitness%20phoneframe.png)
@@ -93,17 +98,27 @@ The main business goal is to bring in new clients by increasing membership intak
 
  #### Features left to implement
 
- ### 3. Technologies used
+ + Live updates and peak times have been left to implement at a later date once more data has been collected to provide more accurate results.
 
+ ### 3. Technologies used
+  + Visual Studios as an IDE 
+  + Bootstrap grid and features have been used throughout.
+  + fontawesome for icons and favicons 
+  + Github for deployment 
  ### 4. Testing
 
  ### 5. Deployment
- + To simply run this project use [thislink](#)
- #### To download and work on the code yourself. 
- 1. 
-
+ + To view this project use [thislink](#)
+ #### To download and work on the code yourself locally. 
+ 1. navigate to [devildex91](https://github.com/devildex91/ironclad-fitness)
+ 2. Click on the green [<>code](./assets/images/code-button.png) button  and select [Download Zip](./assets/images/downloadzip.png).(This will save a copy of of the repository on your device).
+3. Once downlaoded unpack zipped file to a location of your choosing and you can work on and run the code in an IDE of your choosing(Have fun). 
 ### 6. Credits
+
 #### Content 
+
+
+
 #### Media 
 #### Code 
 + responsiveness grid from [bootstrap](https://getbootstrap.com/)
