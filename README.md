@@ -83,7 +83,7 @@ The main business goal is to bring in new clients by increasing membership intak
 + number of pictures in take the tour page are just for layout purposes as number of photos will likely increase for finished website. 
 + [click here for <576 wireframe](./assets/images/Ironclad%20Fitness%20phoneframe.png)
 + [click here for >=768 wireframe](./assets/images/Ironclad%20fitness%20tabletframe.png)
-+ [click here for >= 992 wireframe](#)
++ [click here for >= 992 wireframe](./assets/images/Ironclad%20Fitness%20desktopframe.png)
 
 
 
