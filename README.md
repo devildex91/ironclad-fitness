@@ -31,7 +31,7 @@
 
 #### Primary Goals 
 
-The primary goal of Ironclad Fitness is to provide a eye catching, informative, and easy to navigate website that will showcaswe all the great things about Ironclad Fitness. The main target audience for this website will be current members who want to see what else is avaliable to them at Ironclad Fitness and potential new members looking for somewhere new to train.
+The primary goal of Ironclad Fitness is to provide a eye catching, informative, and easy to navigate website that will showcase all the great things about Ironclad Fitness. The main target audience for this website will be current members who want to see what else is avaliable to them at Ironclad Fitness and potential new members looking for somewhere new to train.
 
 #### Business Goals
 
