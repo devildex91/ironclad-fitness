@@ -43,7 +43,7 @@ The main business goal is to bring in new clients by increasing membership intak
 + Current members user goals are to check what i going on at the gym such as classes they could book in for or opening hours during holidays as well as any special offers they may be able to take advantage of.
 
 #### User Stories
-
+ + For full Acceptance Criteria and tasks please follow [this link](https://github.com/users/devildex91/projects/4) to the project board for Ironclad Fitness
  +  As a first time visiter to the site I would like everything to be easy to find to so i can easily navigate to wherever I would like to on the site.
 
  + As a member i would like access to a weekly timetable of classes and special events that are happening as well as an ability to book my spot on these classes.
