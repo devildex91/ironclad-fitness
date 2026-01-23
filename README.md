@@ -14,7 +14,7 @@
 + Features left to implement
 
 3. ### Technologies used
-
+  
 4. ### Testing
 
 5. ### Deployment
@@ -62,7 +62,8 @@ The main business goal is to bring in new clients by increasing membership intak
 #### Design Choices
 ##### Fonts
 + Archivo black-Titles
-+ Kite One- paragraphs 
++ Kite One- paragraphs  
++ ![picture of font choices for website](./assets/images/Font-choice.png)
 + Archivo one because it is bold and strong and refrences weighgt lifting and Kite one has been chosen for main content as it is easily readable, contrasts well to Archivo and is more of an active looking font to refrence the cardio aspects of gym life.
 
 ##### Colours
@@ -70,6 +71,7 @@ The main business goal is to bring in new clients by increasing membership intak
  + #CFFFE2 Mint
  + #A2D5C6 light-cyan
 + #F6F6F6 grey 
++ ![palete of colors fron top to bottom black,Mint,light-cyan and grey](./assets/images/color-choices.png)
 + I have chosen these colors because black gives it a minimalist feel and has been shwon to add a sense of power as well as the light grey to contrast well with the black and to offer a sense of simplicity and to make it feel larger. The mint and light cyan colours have been added as they have been shown  to offer a sense of tranquility and feeling refreshed. All of these i beleive are key takeaways from what multiple people hope to feel after a gym session. 
 
 ##### Styling
@@ -86,33 +88,36 @@ All images have been sourced from [pexels.com](https://www.pexels.com/)
 
 ##### Wireframes
 + number of pictures in take the tour page are just for layout purposes as number of photos will likely increase for finished website. 
-+ [click here for <576 wireframe](./assets/images/Ironclad%20Fitness%20phoneframe.png)
-+ [click here for >=768 wireframe](./assets/images/Ironclad%20fitness%20tabletframe.png)
-+ [click here for >= 992 wireframe](./assets/images/Ironclad%20Fitness%20desktopframe.png)
++ ![wireframe for screens < 576px](./assets/images/Ironclad%20Fitness%20phoneframe.png)
++ ![wireframe for screens >=768px](./assets/images/Ironclad%20fitness%20tabletframe.png)
++ ![wireframe for screens >=992px](./assets/images/Ironclad%20Fitness%20desktopframe.png)
 
 
 
  ### 2. Features 
 
  #### Existing Features
-
+  
  #### Features left to implement
 
  + Live updates and peak times have been left to implement at a later date once more data has been collected to provide more accurate results.
 
  ### 3. Technologies used
-  + Visual Studios as an IDE 
-  + Bootstrap grid and features have been used throughout.
-  + fontawesome for icons and favicons 
-  + Github for deployment 
+  + Visual Studios used as the primary IDE. 
+  + Bootstrap(v5.3) for main layout and responsive design.   
+  + fontawesome for icons and favicons. 
+  + Github for deployment. 
+  
  ### 4. Testing
 
  ### 5. Deployment
  + To view this project use [thislink](#)
  #### To download and work on the code yourself locally. 
- 1. navigate to [devildex91](https://github.com/devildex91/ironclad-fitness)
- 2. Click on the green [<>code](./assets/images/code-button.png) button  and select [Download Zip](./assets/images/downloadzip.png).(This will save a copy of of the repository on your device).
-3. Once downlaoded unpack zipped file to a location of your choosing and you can work on and run the code in an IDE of your choosing(Have fun). 
+ 1. Navigate to [devildex91/ironclad-fitness](https://github.com/devildex91/ironclad-fitness)
+ 2. Click on the green code button ![picture of green code button](./assets/images/code-button.png) 
+ 3. Select download zip as shown. (This will save a copy of of the repository on your device). ![image of download zip to click on](./assets/images/downloadzip.png).
+ 4. Once downloaded unpack zipped file to a location of your choosing and you can work on and run the code in an IDE of your choosing(Have fun). 
+ + dumbell favicons by <a target="_blank" href="https://icons8.com/icon/9773/dumbbell">Dumbbell</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 ### 6. Credits
 
 #### Content 
@@ -121,7 +126,7 @@ All images have been sourced from [pexels.com](https://www.pexels.com/)
 
 #### Media 
 #### Code 
-+ responsiveness grid from [bootstrap](https://getbootstrap.com/)
++ responsiveness grid from [bootstrap v5.3](https://getbootstrap.com/)
 #### Acknoledgements
 + fonts imported from [google fonts.](https://fonts.google.com/selection/embed) 
 + favicons from [fontawesome.](https://fontawesome.com/) 
