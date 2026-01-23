@@ -97,7 +97,7 @@ All images have been sourced from [pexels.com](https://www.pexels.com/)
  ### 2. Features 
 
  #### Existing Features
-  
++ Navbar altered fort larger screens for improved layout  
  #### Features left to implement
 
  + Live updates and peak times have been left to implement at a later date once more data has been collected to provide more accurate results.

@@ -3,14 +3,41 @@ Archivo Black titles
 Kite One-main content*/
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Kite+One&display=swap');
 
-#icon{
-  background-color:white;
+/*root variables*/
+:root {
+--primary-color:#CFFFE2;/*Mint*/
+--secondary-color:#A2D5C6; /* cyan*/
+--highlight-color:#F6F6F6; /*light grey*/
+--header-font:"Archivo Black", sans-serif ;
+--secondary-font:"Kite One", sans-serif;
+}
+body {
+    background-color: var(--primary-color);
+    font-family: var(--secondary-font);
+}
+h1,h2,h3{
+    font-family: var(--header-font);
 }
 
+
+
+
+
+
+
+
+
+
+
+/*footer*/
 #footer i{
-    color:white;
+    color: var(--highlight-color);
+    padding:1em;
 }
 #footer{
-    color:white;
+    color: var(--highlight-color);
 font-size: x-small;
 }
+
+
+
