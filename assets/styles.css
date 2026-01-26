@@ -19,6 +19,17 @@ h1,h2,h3{
     font-family: var(--header-font);
 }
 
+main{
+    background-color: var(--secondary-color);
+}
+/*carousel section*/
+.carousel-item p{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#membership-table{
+    background-color: var(--secondary-color);
+}
 
 
 
@@ -38,6 +49,19 @@ h1,h2,h3{
     color: var(--highlight-color);
 font-size: x-small;
 }
+/*header order for tablets and larger*/
+@media (min-width: 768px){
 
-
+    #header-pic{
+        order:2;
+        height:100%;
+    }
+    #header-title{
+        order:1;
+        text-align:center;
+    }
+    #header-text{
+        order:3;
+    }
+}
 
