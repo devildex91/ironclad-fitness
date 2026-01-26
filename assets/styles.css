@@ -11,9 +11,11 @@ Kite One-main content*/
 --header-font:"Archivo Black", sans-serif ;
 --secondary-font:"Kite One", sans-serif;
 }
+/*general styles*/
 body {
     background-color: var(--primary-color);
     font-family: var(--secondary-font);
+    
 }
 h1,h2,h3{
     font-family: var(--header-font);
@@ -22,15 +24,23 @@ h1,h2,h3{
 main{
     background-color: var(--secondary-color);
 }
+.margins{
+    margin-top:2em;
+    margin-bottom:2em;
+}
 /*carousel section*/
 .carousel-item p{
     text-transform: uppercase;
     font-weight: bold;
 }
 #membership-table{
-    background-color: var(--secondary-color);
+    background-color: transparent;;
+    font-size: x-small;
 }
-
+#membership-table th, #membership-table td{
+    background-color: transparent;
+    border-color: var(--highlight-color);
+}
 
 
 
@@ -65,3 +75,11 @@ font-size: x-small;
     }
 }
 
+
+@media (min-width: 1200px){
+   /* index.html pic size for larger screens*/
+    #header-pic{
+        max-width: 652px;
+        max-height: 435px;
+    }
+}
