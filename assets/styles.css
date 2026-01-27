@@ -28,11 +28,38 @@ main{
     margin-top:2em;
     margin-bottom:2em;
 }
+/*header styles*/
+#header{width:100vw;}
 /*carousel section*/
+.carousel-item{background-color: black;}
 .carousel-item p{
     text-transform: uppercase;
     font-weight: bold;
+    color:var(--highlight-color);
 }
+/*membership section*/
+#membership ul{
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0%;
+    
+
+}
+#bronze, #silver, #gold{
+    display: flex;
+    justify-content: center;
+}
+
+.card-body{
+    background-color: var(--highlight-color);
+
+}
+
+
+
+
+
+/*whats on table*/
 #membership-table{
     background-color: transparent;;
     font-size: x-small;
