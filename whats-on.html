@@ -49,83 +49,135 @@
         <h2 class="display-4">Whats On</h2>
       </div>
       <div class="col-12">
-       <p> At Ironclad Fitness, we offer a range of classes and activities for all fitness levels. These run on a two weekly schedule. Check <a href ="index.html#key-info">here</a> for confirmation of the week currently running and we look forward to seeing you soon.</p>
+        <p> At Ironclad Fitness, we offer a range of classes and activities for all fitness levels. These run on a two
+          weekly schedule. Check <a href="index.html#key-info">here</a> for confirmation of the week currently running
+          and we look forward to seeing you soon.</p>
       </div>
     </div>
   </header>
   <!--main content -->
   <main>
-    <!--Classes form-->
+    <!--Classes-->
     <section class="container" id="Classes">
 
 
-      <div class="container-fluid">
-        <div class="col-12 col-lg-6">
-           <h2 class="display-6">Week 1</h2>
-        <table class="table table-bordered" id="membership-table">
-          <thead>
-            <tr>
-              <th scope="col">Class</th>
-              <th scope="col">Price</th>
-              <th scope="col">Hours of use</th>
-              <th scope="col">No of free classes</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">Bronze</th>
-              <td>£14.99</td>
-              <td>Off Peak</td>
-              <td>N/A</td>
-            </tr>
-            <tr>
-              <th scope="row">Silver</th>
-              <td>£19.99</td>
-              <td>24/7</td>
-              <td>5 per week</td>
-            </tr>
-            <tr>
-              <th scope="row">Gold</th>
-              <td>£24.99</td>
-              <td>24/7</td>
-              <td>unlimited</td>
-            </tr>
-          </tbody>
-        </table>
+      <div class="row">
+        <div class="col-12 col-lg-6 d-flex flex-column align-items-center">
+          <h2 class="display-6">Week 1</h2>
+          <table class="table table-bordered" id="membership-table">
+            <thead>
+              <tr>
+                <th scope="col">Class</th>
+                <th scope="col">Price</th>
+                <th scope="col">Hours of use</th>
+                <th scope="col">No of free classes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Bronze</th>
+                <td>£14.99</td>
+                <td>Off Peak</td>
+                <td>N/A</td>
+              </tr>
+              <tr>
+                <th scope="row">Silver</th>
+                <td>£19.99</td>
+                <td>24/7</td>
+                <td>5 per week</td>
+              </tr>
+              <tr>
+                <th scope="row">Gold</th>
+                <td>£24.99</td>
+                <td>24/7</td>
+                <td>unlimited</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
-        <div class="col-12 col-lg-6">
-        <table class="table table-bordered" id="membership-table">
-          <thead>
-            <tr>
-              <th scope="col">Class</th>
-              <th scope="col">Price</th>
-              <th scope="col">Hours of use</th>
-              <th scope="col">No of free classes</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">Bronze</th>
-              <td>£14.99</td>
-              <td>Off Peak</td>
-              <td>N/A</td>
-            </tr>
-            <tr>
-              <th scope="row">Silver</th>
-              <td>£19.99</td>
-              <td>24/7</td>
-              <td>5 per week</td>
-            </tr>
-            <tr>
-              <th scope="row">Gold</th>
-              <td>£24.99</td>
-              <td>24/7</td>
-              <td>unlimited</td>
-            </tr>
-          </tbody>
-        </table>
+        <div class="col-12 col-lg-6 d-flex flex-column align-items-center">
+          <h2 class="display-6">Week 2</h2>
+          <table class="table table-bordered" id="membership-table">
+            <thead>
+              <tr>
+                <th scope="col">Class</th>
+                <th scope="col">Price</th>
+                <th scope="col">Hours of use</th>
+                <th scope="col">No of free classes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Bronze</th>
+                <td>£14.99</td>
+                <td>Off Peak</td>
+                <td>N/A</td>
+              </tr>
+              <tr>
+                <th scope="row">Silver</th>
+                <td>£19.99</td>
+                <td>24/7</td>
+                <td>5 per week</td>
+              </tr>
+              <tr>
+                <th scope="row">Gold</th>
+                <td>£24.99</td>
+                <td>24/7</td>
+                <td>unlimited</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
+    </section>
+    <!--class-booking-->
+    <section class="container" id="class-booking">
+      <form class="row" action="confirmation.html" method="GET">
+        <div class=" col-12 col-md-6 col-lg-3 mb-3">
+          <label for="full-name" class="form-label">Full Name</label>
+          <input type="text" class="form-control" id="full-name" name="full-name" required>
+
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 mb-3">
+          <label for="ID-no" class="form-label">Member ID Number</label>
+          <input type="text" class="form-control" id="ID-no" name="ID-no" required>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 mb-3">
+          <label for="email" class="form-label">Email Address</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 mb-3">
+          <label for="phone-number" class="form-label">Phone Number</label>
+          <input type="tel" class="form-control" id="phone-number" name="phone-number" required>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 mb-3">
+          <label for="membership-type" class="form-label">Membership type</label>
+          <select id="membership-type" class="form-select" name="membership-type" required>
+            <option value="" selected>Select</option>
+            <option value="Bronze">Bronze</option>
+            <option value="Silver">Silver</option>
+            <option value="Gold">Gold</option>
+
+          </select>
+        </div>
+         <div class="col-12 col-md-6 col-lg-3 mb-3">
+          <label for="class" class="form-label">Class</label>
+          <select id="class" class="form-select" name="class" required>
+            <option value="" selected>Select</option>
+            <option value="Bronze">Spin Class</option>
+            <option value="Silver">Yoga</option>
+            <option value="Gold">HIIT</option>
+
+          </select>
+        </div>
+          <div class="col-12 col-md-6 col-lg-3 mb-3">
+            <label for="time" class="form-label">Time</label>
+            <input type="time" class="form-control" id="time" name="time" required>
+          </div>
+        <div class="col-9 col-md-6 col-lg-3 mb-2  d-flex align-items-end">
+          <button type="submit" class="btn btn-dark mb-2">Begin your Journey</button>
+        </div>
+      </form>
     </section>
 
   </main>
