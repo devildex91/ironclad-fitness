@@ -60,6 +60,13 @@ The main business goal is to bring in new clients by increasing membership intak
   + As a current member I would like to be able to book my place on classes through the website.
 
 #### Design Choices
++ Navbar altered for larger screens for improved layout
++ footer layout altered from original wireframe for better user experience and improved look.
++ Image added to confirmation page that was not in wireframe to improve the visuals of the page as it looked very bare and boring otherwise.
++ Membership options changed from table to cards which improved the visuals of the page and made it feel less like a spreadsheet.
++ title added to key information carousel to make it stand out more and as a way to keep up with whether week 1 or 2 was being used in the whats on section
++ footer opening hours and contact details added to same table for space-saving and visually easier to read as layout meant would had to have been two tiny tables.
+
 ##### Fonts
 + Archivo black-Titles
 + Kite One- paragraphs  
@@ -97,11 +104,7 @@ All images have been sourced from [pexels.com](https://www.pexels.com/)
  ### 2. Features 
  image added to confirmation page for improved look 
  #### Existing Features
-+ Navbar altered for larger screens for improved layout
-+ footer layout altered from original wireframe for better user experience and improved look.
-+ Image added to confirmation page that was not in wireframe to improve the visuals of the page as it looked very bare and boring otherwise.
-+ Membership options changed from table to cards which improved the visuals of the page and made it feel less like a spreadsheet.
-+title added to key information carousel to make it stand out more and as a way to keep up with whether week 1 or 2 was being used in the whats on section.    
+
  #### Features left to implement
 
  + Live updates and peak times have been left to implement at a later date once more data has been collected to provide more accurate results.
