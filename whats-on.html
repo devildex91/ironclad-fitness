@@ -9,15 +9,14 @@
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <!--local css link-->
   <link rel="stylesheet" href="assets/styles.css">
-  <title>Ironclad Fitness</title>
+  <title>Whats On</title>
 </head>
 
 <body class="d-flex flex-column min-vh-100">
   <!--navbar-->
   <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html"><img src="./assets/images/icons8-dumbbell-ios-17-filled-32.png"
-          id="icon"></a>
+      <a class="navbar-brand " href="index.html"><i class="fa-solid fa-dumbbell"></i></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -43,19 +42,30 @@
       </div>
     </div>
   </nav>
+  <!--whats on-->
+  <header class="container" id="whats-on">
+    <div class="row">
+      <div class="col-12 d-flex justify-content-center">
+        <h2 class="display-4">Whats On</h2>
+      </div>
+      <div class="col-12">
+       <p> At Ironclad Fitness, we offer a range of classes and activities for all fitness levels. These run on a two weekly schedule. Check <a href ="index.html#key-info">here</a> for confirmation of the week currently running and we look forward to seeing you soon.</p>
+      </div>
+    </div>
+  </header>
   <!--main content -->
   <main>
-    <section class="container" id="whats on">
+    <!--Classes form-->
+    <section class="container" id="Classes">
 
 
       <div class="container-fluid">
-        <div class="col-12 d-flex justify-content-center">
-          <h2 class="display-6">Whats On</h2>
-        </div>
+        <div class="col-12 col-lg-6">
+           <h2 class="display-6">Week 1</h2>
         <table class="table table-bordered" id="membership-table">
           <thead>
             <tr>
-              <th scope="col">Membership type</th>
+              <th scope="col">Class</th>
               <th scope="col">Price</th>
               <th scope="col">Hours of use</th>
               <th scope="col">No of free classes</th>
@@ -82,6 +92,39 @@
             </tr>
           </tbody>
         </table>
+        </div>
+        <div class="col-12 col-lg-6">
+        <table class="table table-bordered" id="membership-table">
+          <thead>
+            <tr>
+              <th scope="col">Class</th>
+              <th scope="col">Price</th>
+              <th scope="col">Hours of use</th>
+              <th scope="col">No of free classes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Bronze</th>
+              <td>£14.99</td>
+              <td>Off Peak</td>
+              <td>N/A</td>
+            </tr>
+            <tr>
+              <th scope="row">Silver</th>
+              <td>£19.99</td>
+              <td>24/7</td>
+              <td>5 per week</td>
+            </tr>
+            <tr>
+              <th scope="row">Gold</th>
+              <td>£24.99</td>
+              <td>24/7</td>
+              <td>unlimited</td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
       </div>
     </section>
 
