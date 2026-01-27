@@ -97,7 +97,11 @@ All images have been sourced from [pexels.com](https://www.pexels.com/)
  ### 2. Features 
  image added to confirmation page for improved look 
  #### Existing Features
-+ Navbar altered fort larger screens for improved layout  
++ Navbar altered for larger screens for improved layout
++ footer layout altered from original wireframe for better user experience and improved look.
++ Image added to confirmation page that was not in wireframe to improve the visuals of the page as it looked very bare and boring otherwise.
++ Membership options changed from table to cards which improved the visuals of the page and made it feel less like a spreadsheet.
++title added to key information carousel to make it stand out more and as a way to keep up with whether week 1 or 2 was being used in the whats on section.    
  #### Features left to implement
 
  + Live updates and peak times have been left to implement at a later date once more data has been collected to provide more accurate results.
