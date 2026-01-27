@@ -95,7 +95,7 @@ All images have been sourced from [pexels.com](https://www.pexels.com/)
 
 
  ### 2. Features 
-
+ image added to confirmation page for improved look 
  #### Existing Features
 + Navbar altered fort larger screens for improved layout  
  #### Features left to implement
