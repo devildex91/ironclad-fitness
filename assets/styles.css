@@ -25,12 +25,24 @@ main{
     background-color: var(--secondary-color);
 }
 .margins{
-    margin-top:2em;
-    margin-bottom:2em;
+    margin-top:0.5rem;
+    margin-bottom: 0.5rem;
 }
-/*header styles*/
-#header{width:100vw;}
-/*carousel section*/
+.center{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.text-middle{
+    text-align:center;
+}
+.main-body{
+    display:flex;
+    flex-direction: column;
+    min-height:100vh;
+}
+
+/*Key Information*/
 .carousel-item{background-color: black;}
 .carousel-item p{
     text-transform: uppercase;
@@ -45,16 +57,24 @@ main{
     
 
 }
+#membership-cards, #social-links,#opening-times{
+    display:flex;
+    justify-content: space-around;
+}
 #bronze, #silver, #gold{
     display: flex;
     justify-content: center;
+    width:16rem;
+    
 }
-
 .card-body{
     background-color: var(--highlight-color);
-
 }
-
+#membership-button{ 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
@@ -68,17 +88,10 @@ main{
     background-color: transparent;
     border-color: var(--highlight-color);
 }
+/*take the tour*/
 
 
 
-
-/*confirmation page*/
-/*#confirmationH{
-    height:30vh;
-}
-
-#confirmationM{
-    height:30vh;
 
 
 
@@ -108,10 +121,50 @@ font-size: x-small;
 }
 
 
-@media (min-width: 1200px){
+@media (min-width: 998px){
    /* index.html pic size for larger screens*/
     #header-pic{
         max-width: 652px;
         max-height: 435px;
     }
 }
+/*take the tour
+ #wr-title{
+    order:0;
+ }
+ #weights-room{
+
+ }
+ #wr-1, #wr-2, #wr-3, #wr-4, #wr-5, #wr-6{
+    margin:0;
+    padding:0;
+    height: max-content;
+ }
+ #wr-1{
+   order:1;
+ }
+ #wr-2{
+    order:5;
+ }
+ #wr-3{
+    order:3;
+ }
+ #wr-4{
+    order:4;
+ }
+ #wr-5{
+    order:2;
+ }
+ #wr-6{
+    order:6;
+ }
+ #wr-quote{
+    order: 7;
+ }
+
+
+
+
+
+
+}*/

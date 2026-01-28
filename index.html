@@ -14,7 +14,7 @@
 
 </head>
 
-<body class="d-flex flex-column min-vh-100">
+<body class="main-body">
     <!--navbar-->
     <nav class="navbar navbar-expand-lg bg-dark mb-2" data-bs-theme="dark">
         <div class="container-fluid">
@@ -45,18 +45,18 @@
         </div>
     </nav>
     <!--header section-->
-    <header class="container" id="header">
-        <div class="row d-flex justify-content-center align-items-center text-center">
-            <div class="col-12 mt-2 mb-2">
+    <header class="container" id="main-header">
+        <div class="row text-middle center">
+            <div class="col-12 margins">
                 <h1 class="display-4">Ironclad Fitness</h1>
             </div>
-            <div class="col-12 col-md-6 mt-2 mb-2" id="header-pic">
+            <div class="col-12 col-md-6 margins" id="header-pic">
                 <img src="assets/images/ironclad-mainpage.jpg" alt="Picture of Ironclad Fitness" class="img-fluid">
             </div>
-            <div class="col-12  mt-2 mb-2" id="header-title">
+            <div class="col-12  margins" id="header-title">
                 <h2 class="display-6">Our Philosophy</h2>
             </div>
-            <div class="col-12 col-md-6 mt-2 mb-2" id="header-text">
+            <div class="col-12 col-md-6 margins" id="header-text">
                 <p class="lead">At Ironclad Fitness, we believe in pushing through boundaries in order to find our true
                     selves. So whatever your goals, be it strength gains, hypertrophy, bodybuilding, or smashing a
                     previous pb at your local parkrun. If this sounds like you or something you want to be then you have
@@ -68,13 +68,13 @@
     </header>
     <!--main section-->
     <main>
-        <!--text-carousel-->
-        <section class="container mt-2 mb-2" id="key-info">
+        <!--Key Information-->
+        <section class="container margins" id="key-info">
             <div class="row">
-                <div class="col-12">
-                    <h2 class="display-6 text-center">Key Information</h2>
+                <div class="col-12 margins">
+                    <h2 class="display-6 text-middle">Key Information</h2>
                      </div>
-                        <div class="col-12">
+                        <div class="col-12 margins">
                             <div id="carouselExample" class="carousel slide " data-bs-theme="light">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
@@ -107,13 +107,13 @@
         </section>
         <!--membership options-->
         <section class="container" id="membership">
-            <h2 class="display-6 text-center">Membership Options</h2>
-            <div class="row d-flex justify-content-around">
-                <div class="col-12 col-md-4 col-lg-3 mt-2 mb-2" id="bronze">
-                    <div class="card" style="width: 16rem;">
+            <h2 class="display-6 text-middle">Membership Options</h2>
+            <div class="row"id="membership-cards">
+                <div class="col-12 col-md-4 col-lg-3 margins text-middle" id="bronze">
+                    <div class="card">
                         <img src="./assets/images/bronze-mempic.jpg" class="card-img-top"
                             alt="Picture of the inside of a gym">
-                        <div class="card-body text-center ">
+                        <div class="card-body">
                             <h3>Bronze</h3>
                             <ul>
                                 <li>£14.99 a Month</li>
@@ -123,11 +123,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-4 col-lg-3 mt-2 mb-2" id="silver">
-                    <div class="card" style="width: 16rem;">
+                <div class="col-12 col-md-4 col-lg-3 margins text-middle" id="silver">
+                    <div class="card">
                         <img src="./assets/images/silver-mempic.jpg" class="card-img-top"
                             alt="picture of a silver medal">
-                        <div class="card-body text-center">
+                        <div class="card-body">
                             <h3>Silver</h3>
                             <ul>
                                 <li>£19.99 a Month</li>
@@ -137,10 +137,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-4 col-lg-3 mt-2 mb-2" id="gold">
-                    <div class="card" style="width: 16rem;">
+                <div class="col-12 col-md-4 col-lg-3 margins text-middle" id="gold">
+                    <div class="card">
                         <img src="./assets/images/gold-mempic.jpg" class="card-img-top" alt="picture of a gold medal">
-                        <div class="card-body text-center">
+                        <div class="card-body">
                             <h3>Gold</h3>
                             <ul>
                                 <li>£24.99 a Month</li>
@@ -154,28 +154,28 @@
         </section>
         <!--membership-form-->
         <section class="container" id="membership-booking-form">
-            <form class="row d-flex justify-content-center" action="confirmation.html" method="GET">
-                <div class=" col-12 col-md-6 col-lg-3 mb-3">
+            <form class="row center" action="confirmation.html" method="GET">
+                <div class=" col-12 col-md-6 col-lg-3 margins">
                     <label for="full-name" class="form-label">Full Name</label>
                     <input type="text" class="form-control" id="full-name" name="full-name" required>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3 mb-3">
+                <div class="col-12 col-md-6 col-lg-3 margins">
                     <label for="post-code" class="form-label">Post Code</label>
                     <input type="text" class="form-control" id="post-code" name="post-code" required>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3 mb-3 mt-1">
+                <div class="col-12 col-md-6 col-lg-3 margins">
                     <label for="d-o-b">Date of Birth</label>
                     <input type="date" id="d-o-b" name="d-o-b" class="form-control" required>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3 mb-3">
+                <div class="col-12 col-md-6 col-lg-3 margins">
                     <label for="email" class="form-label">Email Address</label>
                     <input type="email" class="form-control" id="email" name="email" required>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3 mb-3">
+                <div class="col-12 col-md-6 col-lg-3 margins">
                     <label for="phone-number" class="form-label">Phone Number</label>
                     <input type="tel" class="form-control" id="phone-number" name="phone-number" required>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3 mb-3">
+                <div class="col-12 col-md-6 col-lg-3 margins">
                     <label for="membership-type" class="form-label">Membership type</label>
                     <select id="membership-type" class="form-select" name="membership-type" required>
                         <option value="" selected>Select</option>
@@ -184,13 +184,13 @@
                         <option value="Gold">Gold</option>
                     </select>
                 </div>
-                <div class=" col-12 col-md-6 col-lg-3 mb-3">
+                <div class=" col-12 col-md-6 col-lg-3 margins">
                     <label for="address" class="form-label">Address</label>
                     <textarea class="form-control" rows="4" id="address" name="address" required=""></textarea>
 
                 </div>
-                <div class="col-9 col-md-6 col-lg-3 mb-2 mt-4 d-flex align-items-start justify-content-center">
-                    <button type="submit" class="btn btn-dark mb-2">Begin your Journey</button>
+                <div class="col-9 col-md-6 col-lg-3 margins"id ="membership-button">
+                    <button type="submit" class="btn btn-dark ">Begin your Journey</button>
                 </div>
             </form>
         </section>
@@ -198,8 +198,8 @@
     <!--footer-->
     <!--social media links-->
     <footer id="footer" class="container-fluid mt-auto bg-dark " data-bs-theme="dark">
-        <div class="row d-flex justify-content-center" id="social-media">
-            <div class="col-12  d-flex justify-content-around">
+        <div class="row center" id="social-media">
+            <div class="col-12 margins" id="social-links">
                 <a href="https://www.facebook.com/" target="_blank"
                     aria-label="link to our facebook page(opens in a new tab)"><i
                         class="fa-brands fa-facebook fa-xl "></i></a>
@@ -213,7 +213,7 @@
                         class="fa-brands fa-youtube fa-xl"></i></a>
             </div>
             <!--Opening times-->
-            <div class="col-12 d-flex justify-content-around">
+            <div class="col-12 "id="opening-times">
                 <table class="table table-bordered w-50 ">
                     <thead>
                         <tr>
@@ -271,10 +271,10 @@
                 </table>
             </div>
             <!--copyright-->
-            <div class="col-12 d-flex justify-content-center">
+            <div class="col-12 center">
                 <i class="fa-solid fa-dumbbell "></i>
             </div>
-            <div class="col-12 d-flex justify-content-center">
+            <div class="col-12 center">
                 <p>Copyright Ironclad-Fitness 2026</p>
             </div>
         </div>
