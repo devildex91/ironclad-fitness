@@ -41,6 +41,10 @@ main{
     flex-direction: column;
     min-height:100vh;
 }
+/*navbar*/
+.navbar-nav li a{
+    color:var(--highlight-color);
+}
 
 /*Key Information*/
 .carousel-item{background-color: black;}
@@ -103,6 +107,9 @@ main{
 #footer{
     color: var(--highlight-color);
 font-size: x-small;
+}
+#opening-times th, #opening-times td{
+    color:var(--highlight-color);
 }
 /*header order for tablets and larger*/
 @media (min-width: 768px){
