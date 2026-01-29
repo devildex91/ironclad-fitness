@@ -118,6 +118,13 @@ font-size: x-small;
     #header-text{
         order:3;
     }
+/*take the tour sizing */
+    .fs-lgimg{
+    height:50vh;
+    width:100vw;
+}
+
+
 }
 
 
@@ -127,44 +134,22 @@ font-size: x-small;
         max-width: 652px;
         max-height: 435px;
     }
+    .fitness-pics{
+       height:30vh;
+      width:100vw;  
+    }
+        
+    
 }
-/*take the tour
- #wr-title{
-    order:0;
- }
- #weights-room{
-
- }
- #wr-1, #wr-2, #wr-3, #wr-4, #wr-5, #wr-6{
-    margin:0;
-    padding:0;
-    height: max-content;
- }
- #wr-1{
-   order:1;
- }
- #wr-2{
-    order:5;
- }
- #wr-3{
-    order:3;
- }
- #wr-4{
-    order:4;
- }
- #wr-5{
-    order:2;
- }
- #wr-6{
-    order:6;
- }
- #wr-quote{
-    order: 7;
- }
+/*take the tour*/
 
 
 
 
-
-
-}*/
+@media (min-width: 1200px){
+  /* image sizing for larger images */
+    .fs-lgimg{
+    height:80vh;
+    width:100vw;
+}
+}
