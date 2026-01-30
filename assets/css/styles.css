@@ -41,6 +41,10 @@ main{
     flex-direction: column;
     min-height:100vh;
 }
+.btn{
+    color:var(--highlight-color);
+}
+
 /*navbar*/
 .navbar-nav li a{
     color:var(--highlight-color);
@@ -148,7 +152,8 @@ font-size: x-small;
         
     
 }
-/*take the tour*/
+/*whats on*/
+
 
 
 
