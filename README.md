@@ -118,7 +118,7 @@ All images have been sourced from [pexels.com](https://www.pexels.com/)
  ### 4. Testing
 
  ### 5. Deployment
- + To view this project use [thislink](#)
+ + To view [Ironclad-Fitness](https://devildex91.github.io/ironclad-fitness/)
  #### To download and work on the code yourself locally. 
  1. Navigate to [devildex91/ironclad-fitness](https://github.com/devildex91/ironclad-fitness)
  2. Click on the green code button ![picture of green code button](./assets/images/code-button.png) 
