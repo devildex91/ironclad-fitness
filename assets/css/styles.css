@@ -50,12 +50,25 @@ main{
 .btn{
     color:var(--highlight-color);
 }
-
+.btn:hover{
+    background-color:var(--highlight-color);
+    color:black;
+    border-color: black;
+}
+a,link{
+    text-decoration: none;
+}
+.form-control, .form-select{
+    background-color: var(--highlight-color);
+}
+.form-control:hover, .form-select:hover{
+    background-color: black;
+    color:var(--highlight-color);
+}
 /*navbar*/
 .navbar-nav li a{
     color:var(--highlight-color);
 }
-
 /*Key Information*/
 .carousel-item{background-color: black;}
 .carousel-item p{
@@ -68,8 +81,6 @@ main{
     list-style-type: none;
     text-align: center;
     padding-left: 0%;
-    
-
 }
 #membership-cards, #social-links,#opening-times{
     display:flex;
@@ -89,10 +100,6 @@ main{
     align-items: center;
     justify-content: center;
 }
-
-
-
-
 /*whats on table*/
 #classestable, #classestable1{
     background-color: transparent;;
@@ -102,13 +109,11 @@ main{
     background-color: transparent;
     border-color: var(--highlight-color);
 }
-/*take the tour*/
-
-
-
-
-
-
+/*confirmation*/
+/*styling to make h2 look like a p for better semantic html*/
+#altheading{
+    font-family: var(--secondary-font);
+}
 /*footer*/
 #footer i{
     color: var(--highlight-color);
@@ -140,32 +145,21 @@ font-size: x-small;
     height:50vh;
     width:100vw;
 }
-
-
 }
-
-
 @media (min-width: 998px){
    /* index.html pic size for larger screens*/
     #header-pic{
         max-width: 652px;
         max-height: 435px;
     }
+    /*styling to keep all pics same height and width on take the tour page*/
     .fitness-pics{
        height:30vh;
       width:100vw;  
     }
-        
-    
 }
-/*whats on*/
-
-
-
-
-
 @media (min-width: 1200px){
-  /* image sizing for larger images */
+  /* image sizing for larger images take the tour page*/
     .fs-lgimg{
     height:80vh;
     width:100vw;
