@@ -33,6 +33,12 @@ main{
     justify-content:center;
     align-items: center;
 }
+.centerc{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
 .text-middle{
     text-align:center;
 }
@@ -88,11 +94,11 @@ main{
 
 
 /*whats on table*/
-#membership-table{
+#classestable, #classestable1{
     background-color: transparent;;
     font-size: x-small;
 }
-#membership-table th, #membership-table td{
+#classestable th, #classestable1 th, #classestable td, #classestable1 td{
     background-color: transparent;
     border-color: var(--highlight-color);
 }
