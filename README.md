@@ -117,11 +117,16 @@ All images have been sourced from [pexels.com](https://www.pexels.com/)
   
  ### 4. Testing
 +  Manual testing was carried out and all images loaded properly and all links worked perfectly.
-#### take-the-tour page
-+ Started with this page as it has t he most images and suspected was going to cause the most issues.
+
 + Photos were not being as reactive and sizing was not acting as intended so an extra css classes .fitnesspics and .fs-lgimg has been added in to control photos on medium and larger screens.
 + Once deployed first round of lighthouse testing was not up to scratch as the photos too large and taking too long to load.
-+ Tried converting to webp file types and compressing them which improved the load time considerably but was still taking considerably longer than needed. 
++ Tried converting to webp file types and compressing them which improved the load time considerably but was still taking considerably longer than needed.
++ Fixed this by compressing and reducing image size as well as converting to avif files and load times improved comsiderably.
++ Lighthouse testing completed all load times at least 80 due to bootstrap and google fonts running in background slowing down load times. 
++ ![lighthouse test for index.html](/assets/images/lighthouse-test-index.png) 
++ ![lighthouse test for take the tour](/assets/images/lighthouse-test-ttt.png)
++ ![lighthouse test for whats on](/assets/images/lighthouse-test-whats-on.png)
++ ![lighthouse test for confirmation](/assets/images/lighthouse-test-confirmation.png)
  ### 5. Deployment
  + To view [Ironclad-Fitness](https://devildex91.github.io/ironclad-fitness/)
  #### To download and work on the code yourself locally. 
