@@ -116,7 +116,12 @@ All images have been sourced from [pexels.com](https://www.pexels.com/)
   + Github for deployment. 
   
  ### 4. Testing
-
++  Manual testing was carried out and all images loaded properly and all links worked perfectly.
+#### take-the-tour page
++ Started with this page as it has t he most images and suspected was going to cause the most issues.
++ Photos were not being as reactive and sizing was not acting as intended so an extra css class has been added in to control photos on medium and larger screens.
++ Once deployed first round of lighthouse testing was not up to scratch as the photos too large and taking too long to load.
++ Tried converting to webp file types and compressing them which improved the load time considerably but was still taking considerably longer than needed. 
  ### 5. Deployment
  + To view [Ironclad-Fitness](https://devildex91.github.io/ironclad-fitness/)
  #### To download and work on the code yourself locally. 
