@@ -15,10 +15,12 @@ Kite One-main content*/
 body {
     background-color: var(--primary-color);
     font-family: var(--secondary-font);
+    font-display: swap;
     
 }
 h1,h2,h3{
     font-family: var(--header-font);
+    font-display: swap;
 }
 
 main{
