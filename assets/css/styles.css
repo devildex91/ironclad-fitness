@@ -59,6 +59,8 @@ main{
 }
 a,link{
     text-decoration: none;
+    color:rgba(27, 5, 5, 0.884);
+    font-weight:900;
 }
 .form-control, .form-select{
     background-color: var(--highlight-color);
