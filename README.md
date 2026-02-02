@@ -134,7 +134,7 @@ All images have been sourced from [pexels.com](https://www.pexels.com/)
  2. Click on the green code button ![picture of green code button](./assets/images/code-button.png) 
  3. Select download zip as shown. (This will save a copy of of the repository on your device). ![image of download zip to click on](./assets/images/downloadzip.png).
  4. Once downloaded unpack zipped file to a location of your choosing and you can work on and run the code in an IDE of your choosing(Have fun). 
- + dumbell favicons by <a target="_blank" href="https://icons8.com/icon/9773/dumbbell">Dumbbell</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
 ### 6. Credits
 
 #### Content 
@@ -148,6 +148,8 @@ All images have been sourced from [pexels.com](https://www.pexels.com/)
 + fonts imported from [google fonts.](https://fonts.google.com/selection/embed) 
 + favicons from [fontawesome.](https://fontawesome.com/) 
 + colourscheme from [color palete.](https://colorhunt.co/palette/000000cfffe2a2d5c6f6f6f6) 
+<a target="_blank" href="https://icons8.com/icon/9773/dumbbell">
++ Dumbbell icon in title</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
 
 
