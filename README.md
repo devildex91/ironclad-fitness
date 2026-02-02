@@ -70,7 +70,7 @@ The main business goal is to bring in new clients by increasing membership intak
 ##### Fonts
 + Archivo black-Titles
 + Kite One- paragraphs  
-+ ![picture of font choices for website](./assets/images/Font-choice.png)
++ ![picture of font choices for website](./assets/images/Font-choice.webp)
 + Archivo one because it is bold and strong and refrences weighgt lifting and Kite one has been chosen for main content as it is easily readable, contrasts well to Archivo and is more of an active looking font to refrence the cardio aspects of gym life.
 
 ##### Colours
@@ -78,7 +78,7 @@ The main business goal is to bring in new clients by increasing membership intak
  + #CFFFE2 Mint
  + #A2D5C6 light-cyan
 + #F6F6F6 grey 
-+ ![palete of colors fron top to bottom black,Mint,light-cyan and grey](./assets/images/color-choices.png)
++ ![palete of colors fron top to bottom black,Mint,light-cyan and grey](./assets/images/color-choices.webp)
 + I have chosen these colors because black gives it a minimalist feel and has been shwon to add a sense of power as well as the light grey to contrast well with the black and to offer a sense of simplicity and to make it feel larger. The mint and light cyan colours have been added as they have been shown  to offer a sense of tranquility and feeling refreshed. All of these i beleive are key takeaways from what multiple people hope to feel after a gym session. 
 
 ##### Styling
@@ -95,23 +95,39 @@ All images have been sourced from [pexels.com](https://www.pexels.com/)
 
 ##### Wireframes
 + number of pictures in take the tour page are just for layout purposes as number of photos will likely increase for finished website. 
-+ ![wireframe for screens < 576px](./assets/images/Ironclad%20Fitness%20phoneframe.png)
-+ ![wireframe for screens >=768px](./assets/images/Ironclad%20fitness%20tabletframe.png)
++ ![wireframe for screens < 576px](./assets/images/Ironclad%20Fitness%20phoneframe.webp)
++ ![wireframe for screens >=768px](./assets/images/Ironclad%20fitness%20tabletframe.webp)
 + ![wireframe for screens >=992px](./assets/images/Ironclad%20Fitness%20desktopframe.png)
 
 
 
  ### 2. Features 
- image added to confirmation page for improved look 
+  
  #### Existing Features
-
+ + Responsive layout that works on both mobile and desktop for all pages
+ + ![image of homepage in mobile view](./assets/images/main-mobile.png)
+ + ![desktop view of homepage](./assets/images/main-page-desktop.png)
+ + carousel of text that features key information for users and gym goers
+ + ![image of carousel of text](./assets/images/text-carousel.png)
+ + Clearly displayed membership options as well as a form to book your membership.
+ + ![screenshot of member options and booking form](./assets/images/member-options.png)
+ + Opening times and contact details clearly displayed in same place on every page no matter the screen for a more intuitive experience.#
++ ![screenshot of footer](./assets/images/footer.png)
++ Images of both weights room and fitness suitesresponsive for all screen sizes
++ ![pictures of weights room](./assets/images/take-the-tour-wr.png)
++ ![picture of fitness suite](./assets/images/take-the-tour-fs.png) 
++ The ability to see what events are on each week as well as a form to book your place as well any costs you may be subject to pay and how to pay.
++ ![picture of wahts on page](./assets/images/whats-on-ss.png)
++ A confimration page that lets the user know they have submitted the form succesfully.
++ ![picture of confirmation page](./assets/images/confirmation-page.png)
  #### Features left to implement
 
  + Live updates and peak times have been left to implement at a later date once more data has been collected to provide more accurate results.
 
  ### 3. Technologies used
   + Visual Studios used as the primary IDE. 
-  + Bootstrap(v5.3) for main layout and responsive design.   
+  + Bootstrap(v5.3) for main layout and responsive design. 
+  + flexbox for improved responsive design.  
   + fontawesome for icons and favicons. 
   + Github for deployment. 
   
@@ -123,33 +139,61 @@ All images have been sourced from [pexels.com](https://www.pexels.com/)
 + Tried converting to webp file types and compressing them which improved the load time considerably but was still taking considerably longer than needed.
 + Fixed this by compressing and reducing image size as well as converting to avif files and load times improved comsiderably.
 + Lighthouse testing completed all load times at least 80 due to bootstrap and google fonts running in background slowing down load times. 
++ main section of confirmation rising on further inspection so css class added to keep it to bottom of page on smaller screens.
 + ![lighthouse test for index.html](/assets/images/lighthouse-test-index.png) 
 + ![lighthouse test for take the tour](/assets/images/lighthouse-test-ttt.png)
 + ![lighthouse test for whats on](/assets/images/lighthouse-test-whats-on.png)
 + ![lighthouse test for confirmation](/assets/images/lighthouse-test-confirmation.png)
- ### 5. Deployment
- + To view [Ironclad-Fitness](https://devildex91.github.io/ironclad-fitness/)
++ HTML code tested at [validator.w3](https://validator.w3.org/) all pages passed with no errors or warnings.
++ CSS tested at[jigsaw.w3](https://jigsaw.w3.org/css-validator/) and the css validates as CSS level 3 + SVG. 
+ <p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p> 
+<p>
+ <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valid CSS!" />
+    </a>
+</p>
+
+### 5 . Deployment
+ 
+ + Click the blue link to view [Ironclad-Fitness](https://devildex91.github.io/ironclad-fitness/)
  #### To download and work on the code yourself locally. 
  1. Navigate to [devildex91/ironclad-fitness](https://github.com/devildex91/ironclad-fitness)
- 2. Click on the green code button ![picture of green code button](./assets/images/code-button.png) 
- 3. Select download zip as shown. (This will save a copy of of the repository on your device). ![image of download zip to click on](./assets/images/downloadzip.png).
+ 2. Click on the green code button ![picture of green code button](./assets/images/code-button.webp) 
+ 3. Select download zip as shown. (This will save a copy of of the repository on your device). ![image of download zip to click on](./assets/images/downloadzip.webp).
  4. Once downloaded unpack zipped file to a location of your choosing and you can work on and run the code in an IDE of your choosing(Have fun). 
+ 
+#### To fork a repository.
++ please see [github docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) for more detailed and  an easier to follow guide than I can produce but remember to navigate to [devildex91/ironclad-fitness](https://github.com/devildex91/ironclad-fitness) to fork this repository.
 
++ ##### Note for anybody working on this code that bootstrap 5.3 has been used to create much of the page and should be reused by yourself to ensure it all works as intended.
 ### 6. Credits
 
 #### Content 
++ fonts imported from [google fonts.](https://fonts.google.com/selection/embed) 
 
-
++ colourscheme from [color palete.](https://colorhunt.co/palette/000000cfffe2a2d5c6f6f6f6) 
++ basic layouts for cards,carousel and tables from [bootstrap](https://getbootstrap.com/)
++ basic form layout and buttons from [bootstrap](https://getbootstrap.com/)
++ All basic bootstrap elements have custom layouts and classes on top of to polish out layout to suit the page.
 
 #### Media 
++ favicons from [fontawesome.](https://fontawesome.com/) 
++ Dumbbell icon in title</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
 #### Code 
 + responsiveness grid from [bootstrap v5.3](https://getbootstrap.com/)
++ flexbox also used to help with alignment issues and customisxe further from bootstrap standard.
 #### Acknoledgements
-+ fonts imported from [google fonts.](https://fonts.google.com/selection/embed) 
-+ favicons from [fontawesome.](https://fontawesome.com/) 
-+ colourscheme from [color palete.](https://colorhunt.co/palette/000000cfffe2a2d5c6f6f6f6) 
-<a target="_blank" href="https://icons8.com/icon/9773/dumbbell">
-+ Dumbbell icon in title</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
++ stack overflow was used for the inspiration on how to create the text carousel 
++ for all image optimisation [squoosh](https://squoosh.app/) has been used to help resize and compression tasks.
 
 
 
