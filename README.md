@@ -189,13 +189,14 @@ All images have been sourced from [pexels.com](https://www.pexels.com/)
 #### Media 
 + favicons from [fontawesome.](https://fontawesome.com/) 
 + Dumbbell icon in title</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
++ for all image optimisation [squoosh](https://squoosh.app/) has been used to help resize and compression tasks.
 
 #### Code 
 + responsiveness grid from [bootstrap v5.3](https://getbootstrap.com/)
 + flexbox also used to help with alignment issues and customisxe further from bootstrap standard.
 #### Acknoledgements
-+ stack overflow was used for the inspiration on how to create the text carousel 
-+ for all image optimisation [squoosh](https://squoosh.app/) has been used to help resize and compression tasks.
++ stack overflow was used for the inspiration on how to create the text carousel. 
+
 
 
 
