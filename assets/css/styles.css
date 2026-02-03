@@ -123,7 +123,7 @@ a,link{
     min-width:100vw;
     align-items: center;
 }
-
+/*changes font on confirmation page so looks like secondary text but is header for semantics*/
 #altheading{
     font-family: var(--secondary-font);
 }
@@ -153,11 +153,9 @@ font-size: x-small;
     #header-text{
         order:3;
     }
-/*take the tour sizing */
     .fs-lgimg{
-    height:50vh;
-    width:100vw;
-}
+        min-height:504px;
+    }
 }
 @media (min-width: 998px){
    /* index.html pic size for larger screens*/
@@ -165,16 +163,27 @@ font-size: x-small;
         max-width: 652px;
         max-height: 435px;
     }
+     .fs-lgimg{
+        min-height: 443.97px;
+      }
     /*styling to keep all pics same height and width on take the tour page*/
-    .fitness-pics{
-       height:29vh;
-      width:100vw;  
+  .fitness-pics{
+       min-height:266.86px;
+       
     }
 }
 @media (min-width: 1200px){
   /* image sizing for larger images take the tour page*/
-    .fs-lgimg{
-    height:80vh;
-    width:100vw;
+   .fs-lgimg{
+  min-height:534px;
+}
+}
+@media (min-width: 1400px){
+.fs-lgimg{
+  min-height:624px;
+
+}
+.fitness-pics{
+    min-height:311.83px;
 }
 }
