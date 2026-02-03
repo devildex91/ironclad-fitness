@@ -1,26 +1,28 @@
 # ironclad-fitness
 
 ## Table of Contents 
-1. ### UX
-+ Primary Goals
+1. ### [UX](#1-ux)
+
++ [Primary Goals]
 + Business Goals
 + User Goals
 + User Stories 
 + Design Choices 
 + Wireframes 
 
-2. ### Features 
+2. ### [Features](#2-features) 
 + Existing Features 
 + Features left to implement
 
-3. ### Technologies used
+3. ### [Technologies used](#3-technologies-used)
   
-4. ### Testing
+4. ### [Testing](#4-testing)
 
-5. ### Deployment
+5. ### [Deployment](#5--deployment)
+
 + How to run this project
 
-6. ### Credits 
+6. ### [Credits](#6-credits) 
 + Content
 + Media
 + Code 
@@ -28,21 +30,26 @@
 
 
 ### 1. UX
+---
 
 #### Primary Goals 
+---
 
 The primary goal of Ironclad Fitness is to provide a eye catching, informative, and easy to navigate website that will showcase all the great things about Ironclad Fitness. The main target audience for this website will be current members who want to see what else is avaliable to them at Ironclad Fitness and potential new members looking for somewhere new to train.
 
 #### Business Goals
+---
 
 The main business goal is to bring in new clients by increasing membership intake while decreasing membership fall off after a new year spike. They aim to showcase all of the great benefits of their gym that far outweigh just the equipment on the floor by showcasing what a great community spirit can be gained as well as showcasing that its not just for bodybuilders but a place for every person at every level of fitness.
 
 #### User Goals
+---
 
 + The user goals for new users are to find somewhere they feel comfortable to either start training for the first time or just somewhere they feel better suited to training. 
 + Current members user goals are to check what i going on at the gym such as classes they could book in for or opening hours during holidays as well as any special offers they may be able to take advantage of.
 
 #### User Stories
+---
  + For full Acceptance Criteria and tasks please follow [this link](https://github.com/users/devildex91/projects/4) to the project board for Ironclad Fitness
 
  +  As a first time visiter to the site I would like everything to be easy to find to so i can easily navigate to wherever I would like to on the site.
@@ -60,6 +67,7 @@ The main business goal is to bring in new clients by increasing membership intak
   + As a current member I would like to be able to book my place on classes through the website.
 
 #### Design Choices
+---
 + Navbar altered for larger screens for improved layout
 + footer kept consistent throughout so that it is intuitive for the user and key information is allways in the same place regardless of what device is used.
 + Image inserted in confirmation page to improve the visuals of the page.
@@ -68,11 +76,13 @@ The main business goal is to bring in new clients by increasing membership intak
 + Footer opening hours and contact details are on the same table for space-saving and visually easier to readas only got to look for all information regarding contacting and hours in the ame place.
 
 ##### Fonts
+---
 + Archivo black-Titles
 + Kite One- paragraphs  
 + Archivo one because it is bold and strong and references weight lifting and Kite one has been chosen for main content as it is easily readable, contrasts well to Archivo and is more of an active looking font to reference the cardio aspects of gym life.
 
 ##### Colours
+---
  + #000000 black
  + #CFFFE2 Mint
  + #A2D5C6 light-cyan
@@ -81,21 +91,25 @@ The main business goal is to bring in new clients by increasing membership intak
 + I have chosen these colors because black gives it a minimalist feel and has been shwon to add a sense of power as well as the light grey to contrast well with the black and to offer a sense of simplicity and to make it feel larger. The mint and light cyan colours have been added as they have been shown  to offer a sense of tranquility and feeling refreshed. All of these i beleive are key takeaways from what multiple people hope to feel after a gym session. 
 
 ##### Styling
+---
 + Firstly the overall responsivness of the website will use bootstrap grid properties with a mixture of built in bootstrap styling and and overiding styles will use a local CSS file.
 + Fonts for styling have been imported from [google fonts.](https://fonts.google.com/selection/embed)
 + The overall colour scheme for the styling has been chosen from [color palete.](https://colorhunt.co/palette/000000cfffe2a2d5c6f6f6f6)  
 + Any favicons added in both the title and within any headings and link for readibility will be taken from [fontawesome.](https://fontawesome.com/)
 + The website has been styled so that it is for the most part all centred where possible or evenly spread out to give a regimented feel like most workouts to show that its not about fancy equipment but consistency to get to your goals which means the layout matches with the views of the gym.
 + The only exception to this is the motivational quotes on the take the tour page which are designed to be off center so they stand out like intended.
-##### Background 
+##### Background
+--- 
 + The navbar and footer will be styled with a black background and the light grey from the chosen colours will be used for the font in these for contrast and readability.
 + The header section will be mint and the main content will be light cyan as these colours sit nicely together without drawing too much attention away from the other section while clearly defining  the different parts of the page.
 
 ##### images
+---
 
 All images have been sourced from [pexels.com](https://www.pexels.com/)
 
 ##### Wireframes
+---
 + ![wireframe for screens < 576px](./assets/images/Ironclad%20Fitness%20phoneframe.webp)
 + ![wireframe for screens >=768px](./assets/images/Ironclad%20fitness%20tabletframe.webp)
 + ![wireframe for screens >=992px](./assets/images/Ironclad%20Fitness%20desktopframe.png)
@@ -103,8 +117,10 @@ All images have been sourced from [pexels.com](https://www.pexels.com/)
 
 
  ### 2. Features 
+ ---
   
  #### Existing Features
+ ---
  + Responsive layout that works on both mobile and desktop for all pages
  + ![image of homepage in mobile view](./assets/images/main-mobile.png)
  + ![desktop view of homepage](./assets/images/main-page-desktop.png)
@@ -122,11 +138,13 @@ All images have been sourced from [pexels.com](https://www.pexels.com/)
 + A confimration page that lets the user know they have submitted the form succesfully.
 + ![picture of confirmation page](./assets/images/confirmation-page.png)
  #### Features left to implement
+ ---
 
  + Live updates and peak times have been left to implement at a later date once more data has been collected to provide more accurate results.
  + details on qualifications also to be added as not seen as crucial for this stage of the development
 
  ### 3. Technologies used
+ ---
   + Visual Studios used as the primary IDE. 
   + Bootstrap(v5.3) for main layout and responsive design. 
   + flexbox for improved responsive design.  
@@ -134,6 +152,7 @@ All images have been sourced from [pexels.com](https://www.pexels.com/)
   + Github for deployment. 
   
  ### 4. Testing
+ ---
 +  Manual testing was carried out and all images loaded properly and all links worked perfectly.
 
 + Photos were not being as reactive and sizing was not acting as intended so an extra css classes .fitnesspics and .fs-lgimg has been added in to control photos on medium and larger screens.
@@ -164,21 +183,31 @@ All images have been sourced from [pexels.com](https://www.pexels.com/)
 </p>
 
 ### 5 . Deployment
+---
+ Site has been deployed through Github pages by:
+ 1. Go to [devildex91/ironclad-fitness](https://github.com/devildex91/ironclad-fitness).
+ 2. click on the settings button ![settings](./assets/images/settings.png)
+ 3. Scroll down and click on pages ![pages](./assets/images/pages.png)
+ 4. In the branch select main ![main](./assets/images/main-button.png)
+ 5. Refresh the page(this may take a couple of minutes to update) and click the link to view.
  
- + Click the blue link to view [Ironclad-Fitness](https://devildex91.github.io/ironclad-fitness/)
  #### To download and work on the code yourself locally. 
+ ---
  1. Navigate to [devildex91/ironclad-fitness](https://github.com/devildex91/ironclad-fitness)
  2. Click on the green code button ![picture of green code button](./assets/images/code-button.webp) 
  3. Select download zip as shown. (This will save a copy of of the repository on your device). ![image of download zip to click on](./assets/images/downloadzip.webp).
  4. Once downloaded unpack zipped file to a location of your choosing and you can work on and run the code in an IDE of your choosing(Have fun). 
  
 #### To fork a repository.
+---
 + please see [github docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) for more detailed and  an easier to follow guide than I can produce but remember to navigate to [devildex91/ironclad-fitness](https://github.com/devildex91/ironclad-fitness) to fork this repository.
 
 + ##### Note for anybody working on this code that bootstrap 5.3 has been used to create much of the page and should be reused by yourself to ensure it all works as intended.
 ### 6. Credits
+---
 
 #### Content 
+---
 + fonts imported from [google fonts.](https://fonts.google.com/selection/embed) 
 
 + colourscheme from [color palete.](https://colorhunt.co/palette/000000cfffe2a2d5c6f6f6f6) 
@@ -187,11 +216,13 @@ All images have been sourced from [pexels.com](https://www.pexels.com/)
 + All basic bootstrap elements have custom layouts and classes on top of to polish off layout to suit the page.
 
 #### Media 
+---
 + favicons from [fontawesome.](https://fontawesome.com/) 
 + Dumbbell icon in title</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 + for all image optimisation [squoosh](https://squoosh.app/) has been used to help resize and compression tasks.
 
 #### Code 
+---
 + responsiveness grid from [bootstrap v5.3](https://getbootstrap.com/)
 + flexbox also used to help with alignment issues and customisxe further from bootstrap standard.
 #### Acknoledgements
