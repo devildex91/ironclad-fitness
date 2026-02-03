@@ -62,7 +62,7 @@ The main business goal is to bring in new clients by increasing membership intak
 #### Design Choices
 + Navbar altered for larger screens for improved layout
 + footer kept consistent throughout so that it is intuitive for the user and key information is allways in the same place regardless of what device is used.
-+ Image added to confirmation page to improve the visuals of the page.
++ Image inserted in confirmation page to improve the visuals of the page.
 + Membership options are cards rather than a table to make them stand out more rather than a table to improve visuals and make them clear and consise to the user.
 + Title added to key information carousel to make it stand out more and as a way to keep up with whether week 1 or 2 was being used in the whats on section
 + Footer opening hours and contact details are on the same table for space-saving and visually easier to readas only got to look for all information regarding contacting and hours in the ame place.
