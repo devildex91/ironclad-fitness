@@ -85,7 +85,7 @@ The main business goal is to bring in new clients by increasing membership intak
 + Fonts for styling have been imported from [google fonts.](https://fonts.google.com/selection/embed)
 + The overall colour scheme for the styling has been chosen from [color palete.](https://colorhunt.co/palette/000000cfffe2a2d5c6f6f6f6)  
 + Any favicons added in both the title and within any headings and link for readibility will be taken from [fontawesome.](https://fontawesome.com/)
-+ The website has been styled so that it is for the most part all centred where possible or evenly spread out to give a regimented feel like most workouts to show that its not about fancy equipment but consistency to get t o your goals which means the layout matches with the views of the gym.
++ The website has been styled so that it is for the most part all centred where possible or evenly spread out to give a regimented feel like most workouts to show that its not about fancy equipment but consistency to get to your goals which means the layout matches with the views of the gym.
 + The only exception to this is the motivational quotes on the take the tour page which are designed to be off center so they stand out like intended.
 ##### Background 
 + The navbar and footer will be styled with a black background and the light grey from the chosen colours will be used for the font in these for contrast and readability.
@@ -184,7 +184,7 @@ All images have been sourced from [pexels.com](https://www.pexels.com/)
 + colourscheme from [color palete.](https://colorhunt.co/palette/000000cfffe2a2d5c6f6f6f6) 
 + basic layouts for cards,carousel and tables from [bootstrap](https://getbootstrap.com/)
 + basic form layout and buttons from [bootstrap](https://getbootstrap.com/)
-+ All basic bootstrap elements have custom layouts and classes on top of to polish out layout to suit the page.
++ All basic bootstrap elements have custom layouts and classes on top of to polish off layout to suit the page.
 
 #### Media 
 + favicons from [fontawesome.](https://fontawesome.com/) 
