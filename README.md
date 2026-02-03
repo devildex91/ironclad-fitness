@@ -61,16 +61,15 @@ The main business goal is to bring in new clients by increasing membership intak
 
 #### Design Choices
 + Navbar altered for larger screens for improved layout
-+ footer layout altered from original wireframe for better user experience and improved look.
-+ Image added to confirmation page that was not in wireframe to improve the visuals of the page as it looked very bare and boring otherwise.
-+ Membership options changed from table to cards which improved the visuals of the page and made it feel less like a spreadsheet.
-+ title added to key information carousel to make it stand out more and as a way to keep up with whether week 1 or 2 was being used in the whats on section
-+ footer opening hours and contact details added to same table for space-saving and visually easier to read as layout meant would had to have been two tiny tables.
++ footer kept consistent throughout so that it is intuitive for the user and key information is allways in the same place regardless of what device is used.
++ Image added to confirmation page to improve the visuals of the page.
++ Membership options are cards rather than a table to make them stand out more rather than a table to improve visuals and make them clear and consise to the user.
++ Title added to key information carousel to make it stand out more and as a way to keep up with whether week 1 or 2 was being used in the whats on section
++ Footer opening hours and contact details are on the same table for space-saving and visually easier to readas only got to look for all information regarding contacting and hours in the ame place.
 
 ##### Fonts
 + Archivo black-Titles
 + Kite One- paragraphs  
-+ ![picture of font choices for website](./assets/images/Font-choice.webp)
 + Archivo one because it is bold and strong and refrences weighgt lifting and Kite one has been chosen for main content as it is easily readable, contrasts well to Archivo and is more of an active looking font to refrence the cardio aspects of gym life.
 
 ##### Colours
@@ -86,15 +85,17 @@ The main business goal is to bring in new clients by increasing membership intak
 + Fonts for styling have been imported from [google fonts.](https://fonts.google.com/selection/embed)
 + The overall colour scheme for the styling has been chosen from [color palete.](https://colorhunt.co/palette/000000cfffe2a2d5c6f6f6f6)  
 + Any favicons added in both the title and within any headings and link for readibility will be taken from [fontawesome.](https://fontawesome.com/)
++ The website has been styled so that it is for the most part all centred where possible or evenly spread out to give a regimented feel like most workouts to show that its not about fancy equipment but consistency to get t o your goals which means the layout matches with the views of the gym.
++ The only exception to this is the motivational quotes on the take the tour page which are designed to be off center so they stand out like intended.
 ##### Background 
 + The navbar and footer will be styled with a black background and the light grey from the chosen colours will be used for the font in these for contrast and readability.
-+ The main content will use a mixture of the mint and light-cyan to compliment each other with the content being black
++ The header section will be mint and the main content will be light cyan as these colours sit nicely together without drawing too much attention away from the other section while clearly defining  the different parts of the page.
+
 ##### images
 
 All images have been sourced from [pexels.com](https://www.pexels.com/)
 
 ##### Wireframes
-+ number of pictures in take the tour page are just for layout purposes as number of photos will likely increase for finished website. 
 + ![wireframe for screens < 576px](./assets/images/Ironclad%20Fitness%20phoneframe.webp)
 + ![wireframe for screens >=768px](./assets/images/Ironclad%20fitness%20tabletframe.webp)
 + ![wireframe for screens >=992px](./assets/images/Ironclad%20Fitness%20desktopframe.png)
@@ -123,6 +124,7 @@ All images have been sourced from [pexels.com](https://www.pexels.com/)
  #### Features left to implement
 
  + Live updates and peak times have been left to implement at a later date once more data has been collected to provide more accurate results.
+ + details on qualifications also to be added as not seen as crucial for this stage of the development
 
  ### 3. Technologies used
   + Visual Studios used as the primary IDE. 
