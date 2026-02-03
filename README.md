@@ -39,7 +39,7 @@ The main business goal is to bring in new clients by increasing membership intak
 
 #### User Goals
 
-+ The user goals for new users are to find somewhere they feel comftable to either start training for the first time or just somewhere they feel better suited to training. 
++ The user goals for new users are to find somewhere they feel comfortable to either start training for the first time or just somewhere they feel better suited to training. 
 + Current members user goals are to check what i going on at the gym such as classes they could book in for or opening hours during holidays as well as any special offers they may be able to take advantage of.
 
 #### User Stories
