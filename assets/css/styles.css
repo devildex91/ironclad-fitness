@@ -115,6 +115,15 @@ a,link{
 }
 /*confirmation*/
 /*styling to make h2 look like a p for better semantic html*/
+#confirm-page{
+    background-color: var(--secondary-color);
+}
+#confirmationH{
+    background-color: var(--primary-color);
+    min-width:100vw;
+    align-items: center;
+}
+
 #altheading{
     font-family: var(--secondary-font);
 }
