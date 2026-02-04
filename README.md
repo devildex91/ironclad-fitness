@@ -3,7 +3,7 @@
 ## Table of Contents 
 1. ### [UX](#1-ux)
 
-+ [Primary Goals]
++ Primary Goals
 + Business Goals
 + User Goals
 + User Stories 
@@ -28,9 +28,11 @@
 + Code 
 + Acknoledgements
 
+<details>
 
-### 1. UX
----
+<summary> 1. UX </summary>
+
+ ---
 
 #### Primary Goals 
 ---
@@ -113,45 +115,64 @@ All images have been sourced from [pexels.com](https://www.pexels.com/)
 + ![wireframe for screens < 576px](./assets/images/Ironclad%20Fitness%20phoneframe.webp)
 + ![wireframe for screens >=768px](./assets/images/Ironclad%20fitness%20tabletframe.webp)
 + ![wireframe for screens >=992px](./assets/images/Ironclad%20Fitness%20desktopframe.png)
+</details>
 
+<details>
+ <summary> 2. Features </summary>
 
-
- ### 2. Features 
  ---
   
  #### Existing Features
  ---
  + Responsive layout that works on both mobile and desktop for all pages
- + ![image of homepage in mobile view](./assets/images/main-mobile.png)
- + ![desktop view of homepage](./assets/images/main-page-desktop.png)
- + carousel of text that features key information for users and gym goers
- + ![image of carousel of text](./assets/images/text-carousel.png)
+  + carousel of text that features key information for users and gym goers
  + Clearly displayed membership options as well as a form to book your membership.
- + ![screenshot of member options and booking form](./assets/images/member-options.png)
- + Opening times and contact details clearly displayed in same place on every page no matter the screen for a more intuitive experience.#
-+ ![screenshot of footer](./assets/images/footer.png)
+ + Opening times and contact details clearly displayed in same place on every page no matter the screen for a more intuitive experience.
 + Images of both weights room and fitness suitesresponsive for all screen sizes
-+ ![pictures of weights room](./assets/images/take-the-tour-wr.png)
-+ ![picture of fitness suite](./assets/images/take-the-tour-fs.png) 
 + The ability to see what events are on each week as well as a form to book your place as well any costs you may be subject to pay and how to pay.
-+ ![picture of wahts on page](./assets/images/whats-on-ss.png)
 + A confimration page that lets the user know they have submitted the form succesfully.
-+ ![picture of confirmation page](./assets/images/confirmation-page.png)
++ hover effects on all forms to know exactly which box you have selected as well as hover effects on links in the nav bar for easier navigation as well as on images.
++ links to every page and links to specific sections of the page such as membership options and to book a class.  
+
+ 
+ 
+ 
+ 
+ <details>
+ <summary>Pages screenshots and dcreenshots of features described above</summary>
+ 
+  ![image of homepage mv](./assets/images/index.html-mobile-ss.png)
+  ![image of homepage dv](./assets/images/index.html-dv-ss.png)
+   ![image of ttt mv](./assets/images/ttt.html-mv-ss.png)
+    ![image of ttt dv](./assets/images/ttt.html-dv-ss.png)
+     ![image of whats on dv](./assets/images/whatson.html-dv-ss.png.png)
+      ![image of whats on mv](./assets/images/whatson.html-mv-ss.png)
+       ![image of confirmation mv](./assets/images/confirmation.html-mv-ss.png)
+        ![image of confirmation dv](./assets/images/confimration.html-dv-ss.png)
+![image of carousel of text](./assets/images/text-carousel.png)
+ ![screenshot of footer](./assets/images/footer.png)
+ </details>
+ 
+
  #### Features left to implement
  ---
 
  + Live updates and peak times have been left to implement at a later date once more data has been collected to provide more accurate results.
  + details on qualifications also to be added as not seen as crucial for this stage of the development
-
- ### 3. Technologies used
- ---
+</details>
+<details>
+ <summary>3. Technologies used </summary>
+ 
+  ---
   + Visual Studios used as the primary IDE. 
   + Bootstrap(v5.3) for main layout and responsive design. 
   + flexbox for improved responsive design.  
   + fontawesome for icons and favicons. 
   + Github for deployment. 
-  
- ### 4. Testing
+ </details> 
+ <details>
+ <summary>4. Testing</summary>
+ 
  ---
 +  Manual testing was carried out and all images loaded properly and all links worked perfectly.
 
@@ -166,6 +187,13 @@ All images have been sourced from [pexels.com](https://www.pexels.com/)
 + ![lighthouse test for whats on](/assets/images/lighthouse-test-whats-on.png)
 + ![lighthouse test for confirmation](/assets/images/lighthouse-test-confirmation.png)
 + HTML code tested at [validator.w3](https://validator.w3.org/) all pages passed with no errors or warnings.
+<details>
+<summary>test screenshots</summary>
+  ![index.html](./assets/images/index.html%20check.png)
+ ![whatson.html](./assets/images/whats-on.htmlcheck.png)
+ ![take-the-tour.html](./assets/images/ttt.html-check.png)
+ ![confirmation.html](./assets/images/confirmation.htmlcheck.png)
+ </details>
 + CSS tested at[jigsaw.w3](https://jigsaw.w3.org/css-validator/) and the css validates as CSS level 3 + SVG. 
  <p>
     <a href="https://jigsaw.w3.org/css-validator/check/referer">
@@ -181,8 +209,9 @@ All images have been sourced from [pexels.com](https://www.pexels.com/)
             alt="Valid CSS!" />
     </a>
 </p>
-
-### 5 . Deployment
+</details>
+<details>
+<summary> 5 . Deployment</summary>
 ---
  Site has been deployed through Github pages by:
  1. Go to [devildex91/ironclad-fitness](https://github.com/devildex91/ironclad-fitness).
@@ -200,10 +229,12 @@ All images have been sourced from [pexels.com](https://www.pexels.com/)
  
 #### To fork a repository.
 ---
-+ please see [github docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) for more detailed and  an easier to follow guide than I can produce but remember to navigate to [devildex91/ironclad-fitness](https://github.com/devildex91/ironclad-fitness) to fork this repository.
++ please see [github docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) for more detailed and an easier to follow guide than I can produce but remember to navigate to [devildex91/ironclad-fitness](https://github.com/devildex91/ironclad-fitness) to fork this repository.
 
 + ##### Note for anybody working on this code that bootstrap 5.3 has been used to create much of the page and should be reused by yourself to ensure it all works as intended.
-### 6. Credits
+</details>
+<details>
+<summary> 6. Credits</summary>
 ---
 
 #### Content 
@@ -223,10 +254,10 @@ All images have been sourced from [pexels.com](https://www.pexels.com/)
 #### Code 
 ---
 + responsiveness grid from [bootstrap v5.3](https://getbootstrap.com/)
-+ flexbox also used to help with alignment issues and customisxe further from bootstrap standard.
++ flexbox also used to help with alignment issues and customise further from bootstrap standard.
 #### Acknoledgements
 + stack overflow was used for the inspiration on how to create the text carousel. 
-
+</details>
 
 
 
