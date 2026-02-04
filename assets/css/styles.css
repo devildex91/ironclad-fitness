@@ -153,37 +153,18 @@ font-size: x-small;
     #header-text{
         order:3;
     }
-    .fs-lgimg{
-        min-height:504px;
-    }
-}
-@media (min-width: 998px){
-   /* index.html pic size for larger screens*/
-    #header-pic{
-        max-width: 652px;
-        max-height: 435px;
-    }
-     .fs-lgimg{
-        min-height: 443.97px;
-      }
-    /*styling to keep all pics same height and width on take the tour page*/
-  .fitness-pics{
-       min-height:266.86px;
-       
+     .ttt-pics{
+       min-height:236.05px;    
     }
 }
 @media (min-width: 1200px){
   /* image sizing for larger images take the tour page*/
-   .fs-lgimg{
-  min-height:534px;
+ .ttt-pics{
+    min-height:250.31px;
 }
 }
 @media (min-width: 1400px){
-.fs-lgimg{
-  min-height:624px;
-
-}
-.fitness-pics{
-    min-height:311.83px;
+.ttt-pics{
+    min-height:292.5px;
 }
 }
