@@ -217,8 +217,7 @@ All images have been sourced from [pexels.com](https://www.pexels.com/)
 
 #### Media 
 ---
-+ favicons from [fontawesome.](https://fontawesome.com/) 
-+ Dumbbell icon in title</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
++ All pictures and favicons generated using Google Gemini. 
 + for all image optimisation [squoosh](https://squoosh.app/) has been used to help resize and compression tasks.
 
 #### Code 
