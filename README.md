@@ -112,19 +112,33 @@ The main business goal is to bring in new clients by increasing membership intak
 --- 
 + The navbar and footer will be styled with a black background and the light grey from the chosen colours will be used for the font in these for contrast and readability.
 + The header section will be mint and the main content will be light cyan as these colours sit nicely together without drawing too much attention away from the other section while clearly defining  the different parts of the page.
++ I debated using a background image to improve it visually but decided against as felt it would distract from the simplistic design of the page showcasing that training isnt all about using the latest fancy gimics but simple and consistent which reflects in the choices of background.
 
 ##### images
 ---
 
-All images have been sourced from [pexels.com](https://www.pexels.com/)
-
+All images have been sourced from google Gemini to give the appearence of the company giving me a selection of pictures to work from which are of a good enough to display the theme of the website and reflect the palete of colours chosen.
 ##### Wireframes
+
 ---
+
+<details>
+<summary>Wireframe for screens < 579px </summary>
+
 + ![wireframe for screens < 576px](./assets/images/Ironclad%20Fitness%20phoneframe.webp)
+</details>
+<details>
+<summary>Wireframe for screens >=768px</summary>
+
 + ![wireframe for screens >=768px](./assets/images/Ironclad%20fitness%20tabletframe.webp)
+</details>
+<details>
+<summary>Wireframe for screens >=992px</summary>
+
 + ![wireframe for screens >=992px](./assets/images/Ironclad%20Fitness%20desktopframe.png)
 </details>
 
+</details>
 <details>
  <summary> 2. Features </summary>
 
@@ -188,7 +202,7 @@ All images have been sourced from [pexels.com](https://www.pexels.com/)
   + Visual Studios used as the primary IDE. 
   + Bootstrap(v5.3) for main layout and responsive design. 
   + flexbox for improved responsive design.  
-  + fontawesome for icons and favicons. 
+  + Google Gemini for photos and company logo used in navbar and copyright at bottom of page 
   + Github for deployment. 
  </details> 
  <details>
@@ -197,25 +211,36 @@ All images have been sourced from [pexels.com](https://www.pexels.com/)
  ---
 +  Manual testing was carried out and all images loaded properly and all links worked perfectly.
 
-+ Photos were not being as reactive and sizing was not acting as intended so an extra css classes .fitnesspics and .fs-lgimg has been added in to control photos on medium and larger screens.
++ Photos were not being as reactive and sizing was not acting as intended so an extra css class .ttt-pics has been added in to provide a min-height for alignment purposes as screen gets larger to keep it responsive and looking good.
 + Once deployed first round of lighthouse testing was not up to scratch as the photos too large and taking too long to load.
 + Tried converting to webp file types and compressing them which improved the load time considerably but was still taking considerably longer than needed.
 + Fixed this by compressing and reducing image size as well as converting to avif files and load times improved comsiderably.
-+ Lighthouse testing completed all load times at least 80 due to bootstrap and google fonts running in background slowing down load times. 
-+ main section of confirmation rising on further inspection so css class added to keep it to bottom of page on smaller screens.
-+ ![lighthouse test for index.html](/assets/images/lighthouse-test-index.png) 
++ main section of confirmation rising on further inspection so background colour changed for confirmation page to allow the main section to move without effecting the visuals of the page.
+<details>
+
+   
+<summary>Lighthouse tests screenshots</summary>
+
+ ![lighthouse test for index.html](/assets/images/lighthouse-test-index.png) 
 + ![lighthouse test for take the tour](/assets/images/lighthouse-test-ttt.png)
 + ![lighthouse test for whats on](/assets/images/lighthouse-test-whats-on.png)
 + ![lighthouse test for confirmation](/assets/images/lighthouse-test-confirmation.png)
-+ HTML code tested at [validator.w3](https://validator.w3.org/) all pages passed with no errors or warnings.
+</details>
+
++ All lighthose testing in 90s apart from whats-on page as this page displays more content in the form of google fonts slowiong down loading times
++ All photos have been updated to Ai generated ones which have then been converted to avif files and compressed so are of a good enough quality for normal visuals but lower the best practices scores by a couple of percent but improve load times by almost 20% which i believe is a good compromise as if it was a real company photos would all be provided by the company 
 
 <details>
-<summary>test screenshots</summary>
-  ![index.html](./assets/images/index.html%20check.png)
- ![whatson.html](./assets/images/whats-on.htmlcheck.png)
- ![take-the-tour.html](./assets/images/ttt.html-check.png)
- ![confirmation.html](./assets/images/confirmation.htmlcheck.png)
- </details>
+<summary>HTML tests screenshots</summary>
+
+![html test index.html](./assets/images/index.html%20check.png)
+![html test ttt.html](./assets/images/ttt.html-check.png)
+![html test whats-on](./assets/images/whats-on.htmlcheck.png)
+![html test confirmation](./assets/images/confirmation.htmlcheck.png)
+</details>
+
++ HTML code tested at [validator.w3](https://validator.w3.org/) all pages passed with no errors or warnings.
+
 + CSS tested at[jigsaw.w3](https://jigsaw.w3.org/css-validator/) and the css validates as CSS level 3 + SVG. 
  <p>
     <a href="https://jigsaw.w3.org/css-validator/check/referer">
@@ -231,27 +256,56 @@ All images have been sourced from [pexels.com](https://www.pexels.com/)
             alt="Valid CSS!" />
     </a>
 </p>
+<details>
+<summary>  Contrast testing screenshots</summary>
+
+![navbar/footer colours](./assets/images/navbar-contrast-checker.png)
+![header contrast](./assets/images/header-contrast-check.png)
+![main contrast](./assets/images/main-contrast-check.png)
+</details>
+
++ Navbar/footer contrast check all passed black background with light grey text(first image)
++ Header contrast check all passed mint background black font(second image)
++ Main contrast check all passed cyan background black font(third image)
+
+
 </details>
 <details>
 <summary> 5 . Deployment</summary>
+
 ---
- Site has been deployed through Github pages by:
+
+[To view site](https://devildex91.github.io/ironclad-fitness/)
+<details>
+
+ <summary>Site has been deployed through Github pages by:</summary>
+
+ ---
+
  1. Go to [devildex91/ironclad-fitness](https://github.com/devildex91/ironclad-fitness).
  2. click on the settings button ![settings](./assets/images/settings.png)
  3. Scroll down and click on pages ![pages](./assets/images/pages.png)
  4. In the branch select main ![main](./assets/images/main-button.png)
  5. Refresh the page(this may take a couple of minutes to update) and click the link to view.
- 
- #### To download and work on the code yourself locally. 
+ </details>
+ <details>
+ <summary> To download and work on the code yourself locally. </summary>
+
  ---
+
  1. Navigate to [devildex91/ironclad-fitness](https://github.com/devildex91/ironclad-fitness)
  2. Click on the green code button ![picture of green code button](./assets/images/code-button.webp) 
  3. Select download zip as shown. (This will save a copy of of the repository on your device). ![image of download zip to click on](./assets/images/downloadzip.webp).
  4. Once downloaded unpack zipped file to a location of your choosing and you can work on and run the code in an IDE of your choosing(Have fun). 
- 
-#### To fork a repository.
+ </details>
+ <details>
+<summary> To fork a repository.</summary>
+
 ---
+
 + please see [github docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) for more detailed and an easier to follow guide than I can produce but remember to navigate to [devildex91/ironclad-fitness](https://github.com/devildex91/ironclad-fitness) to fork this repository.
+
+</details>
 
 + ##### Note for anybody working on this code that bootstrap 5.3 has been used to create much of the page and should be reused by yourself to ensure it all works as intended.
 </details>
@@ -271,14 +325,15 @@ All images have been sourced from [pexels.com](https://www.pexels.com/)
 #### Media 
 ---
 + All pictures and favicons generated using Google Gemini. 
-+ for all image optimisation [squoosh](https://squoosh.app/) has been used to help resize and compression tasks.
++ for all image optimisation [squoosh](https://squoosh.app/) has been used to help with the resize of images and compression tasks.
 
 #### Code 
 ---
 + responsiveness grid from [bootstrap v5.3](https://getbootstrap.com/)
 + flexbox also used to help with alignment issues and customise further from bootstrap standard.
 #### Acknoledgements
-+ stack overflow was used for the inspiration on how to create the text carousel. 
++ [stack overflow](https://stackoverflow.com/) was used for the inspiration on how to create the text carousel.
++ [geekforgeeks](https://www.geeksforgeeks.org/)used for transform property on hover elements on images and links in navbar. 
 </details>
 
 
