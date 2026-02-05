@@ -54,7 +54,13 @@ The main business goal is to bring in new clients by increasing membership intak
  + For full Acceptance Criteria and tasks please follow [this link](https://github.com/users/devildex91/projects/4) to the project board for Ironclad Fitness
 
  +  As a first time visiter to the site I would like everything to be easy to find to so i can easily navigate to wherever I would like to on the site.
+<details>
+<summary>screenshot of navbar</summary>
 
+![navbar desktop view](./assets/images/navbar-section-dv.png)
+![ section mobile view](./assets/images/navbar-section-mv.png)
+
+<details> 
  + As a member I would like access to a weekly timetable of classes and special events that are happening.
 
  + As I have a very busy schedule i would like to be able to find out the busiest times of day by visiting your website so i can fit my visits around my lifestyle without standing around waiting for machines and equipment.
@@ -210,7 +216,7 @@ All images have been sourced from google Gemini to give the appearence of the co
  
  ---
 +  Manual testing was carried out and all images loaded properly and all links worked perfectly.
-
++ First batch of photo werent inkeeping with the layout and theme of the page and were not reacting properly so took the desicion to delete all pictures and use AI generated pictures which helped load times and were still good quality images but with a file size about 90% smaller sacrificing a tiny bit of image quality for better visuals and a better overall build.
 + Photos were not being as reactive and sizing was not acting as intended so an extra css class .ttt-pics has been added in to provide a min-height for alignment purposes as screen gets larger to keep it responsive and looking good.
 + Once deployed first round of lighthouse testing was not up to scratch as the photos too large and taking too long to load.
 + Tried converting to webp file types and compressing them which improved the load time considerably but was still taking considerably longer than needed.
