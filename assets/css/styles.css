@@ -26,6 +26,7 @@ h1,h2,h3{
 main{
     background-color: var(--secondary-color);
 }
+/*custom classes to replace bootstrap ones so updates are easier if needed in future*/
 .margins{
     margin-top:0.5rem;
     margin-bottom: 0.5rem;
@@ -44,11 +45,13 @@ main{
 .text-middle{
     text-align:center;
 }
+/*class to push footer to bottom*/
 .main-body{
     display:flex;
     flex-direction: column;
     min-height:100vh;
 }
+/*changes button colours*/
 .btn{
     color:var(--highlight-color);
 }
@@ -65,10 +68,12 @@ a,link{
 .form-control, .form-select{
     background-color: var(--highlight-color);
 }
+/* hover feature for all form inputs*/
 .form-control:hover, .form-select:hover{
     background-color: black;
     color:var(--highlight-color);
 }
+/*box shadow code for all images and links*/
 img:hover{
     box-shadow:0px 15px 25px rgb(10, 10, 10);
     transform: translateY(-2px);
@@ -140,6 +145,7 @@ img:hover{
     color: var(--highlight-color);
     padding:1em;
 }
+/* reduces font size so more responsive on smaller screens*/
 #footer{
     color: var(--highlight-color);
 font-size: x-small;
@@ -172,6 +178,7 @@ font-size: x-small;
     min-height:250.31px;
 }
 }
+/*image sizing for xl screens*/
 @media (min-width: 1400px){
 .ttt-pics{
     min-height:292.5px;
