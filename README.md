@@ -111,12 +111,14 @@ The main business goal is to bring in new clients by increasing membership intak
 
 #### Design Choices
 ---
++ I have chosen to use bootstrap grid for my responsive design and where possible use bootstrap components for the bare bones.
++ Within my responsive layout I intend to keep everything centred as well as possible so it all follows the same flow.
++ My reasoning for centring most components is to keep things simple for the user so they know where everything is going to be and like a workout you dont need to do anything flashy just keep it simple yet effective and you will see the results you want. 
 + Responsive navbar that uses the avaliable space whilst keeping things minimalist for the best user experience.
-+ Footer kept consistent throughout so that it is intuitive for the user and key information is allways in the same place regardless of what device is used.
-+ Image inserted in confirmation page to improve the visuals of the page.
-+ Membership options are cards rather than a table to make them stand out and make them clear and consise to the user.
-+ Title added to key information carousel to make it stand out more and as a way to keep up with whether week 1 or 2 was being used in the whats on section
-+ Footer opening hours and contact details are on the same table for space-saving and visually easier to read as only got to look for all information regarding contacting and hours in the ame place.
++ Footers will be kept consistent throughout so that it is intuitive for the user and key information is allways in the same place regardless of what device is used.
++ I will put all Membership options as cards rather than a table to make them stand out and make them clear and consise to the user what the differences are because if i put in too much detail it will distract and potentially bore the user before they have chance to see the benefits of our gym.
++ All sections where applicable will have a clear title to show the user what that section is about so it is easy for the user to navigate their way around the site.
++ Headers and footers will be identical no matter the page you are on so that the key information needed is allways accesible and exactly where the user expects it to be.
 
 
 ##### Fonts
@@ -373,8 +375,8 @@ All images have been sourced from google Gemini to give the appearence of the co
 ---
 + responsiveness grid from [bootstrap v5.3](https://getbootstrap.com/)
 + flexbox also used to help with alignment issues and customise further from bootstrap standard.
++ bootstrap used for carousel but took out image component to make text carousel.
 #### Acknoledgements
-+ [stack overflow](https://stackoverflow.com/) was used for the inspiration on how to create the text carousel.
 + [geekforgeeks](https://www.geeksforgeeks.org/)used for transform property on hover elements on images and links in navbar. 
 </details>
 
