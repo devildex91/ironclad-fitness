@@ -29,7 +29,6 @@
 + Acknoledgements
 
 <details>
-
 <summary> 1. UX </summary>
 
  ---
@@ -37,7 +36,7 @@
 #### Primary Goals 
 ---
 
-The primary goal of Ironclad Fitness is to provide a eye catching, informative, and easy to navigate website that will showcase all the great things about Ironclad Fitness. The main target audience for this website will be current members who want to see what else is avaliable to them at Ironclad Fitness and potential new members looking for somewhere new to train.
+The primary goal of Ironclad Fitness is to provide a eye catching, informative, and easy to navigate website that will showcase all the great things about Ironclad Fitness. The main target audience for this website will be current members who want to see what else is avaliable to them at Ironclad Fitness and potential new members looking for somewhere new to train or somewhere to train for the first time.
 
 #### Business Goals
 ---
@@ -70,18 +69,20 @@ The main business goal is to bring in new clients by increasing membership intak
 
 #### Design Choices
 ---
-+ Navbar altered for larger screens for improved layout
-+ footer kept consistent throughout so that it is intuitive for the user and key information is allways in the same place regardless of what device is used.
++ Responsive navbar that uses the avaliable space whilst keeping things minimalist for the best user experience.
++ Footer kept consistent throughout so that it is intuitive for the user and key information is allways in the same place regardless of what device is used.
 + Image inserted in confirmation page to improve the visuals of the page.
-+ Membership options are cards rather than a table to make them stand out more rather than a table to improve visuals and make them clear and consise to the user.
++ Membership options are cards rather than a table to make them stand out and make them clear and consise to the user.
 + Title added to key information carousel to make it stand out more and as a way to keep up with whether week 1 or 2 was being used in the whats on section
-+ Footer opening hours and contact details are on the same table for space-saving and visually easier to readas only got to look for all information regarding contacting and hours in the ame place.
++ Footer opening hours and contact details are on the same table for space-saving and visually easier to read as only got to look for all information regarding contacting and hours in the ame place.
+
 
 ##### Fonts
 ---
 + Archivo black-Titles
 + Kite One- paragraphs  
-+ Archivo one because it is bold and strong and references weight lifting and Kite one has been chosen for main content as it is easily readable, contrasts well to Archivo and is more of an active looking font to reference the cardio aspects of gym life.
++ Archivo one because it is bold and strong and subconsciously represents the weight lifting. 
++ Kite one has been chosen for main content as it is easily readable, contrasts well to Archivo and is more of an active looking font to reference the cardio aspects of gym life.
 
 ##### Colours
 ---
@@ -89,7 +90,14 @@ The main business goal is to bring in new clients by increasing membership intak
  + #CFFFE2 Mint
  + #A2D5C6 light-cyan
 + #F6F6F6 grey 
-+ ![palete of colors fron top to bottom black,Mint,light-cyan and grey](./assets/images/color-choices.webp)
+
+<details>
+
+<summary>palete of colour choices</summary>
+
+ ![palete of colors fron top to bottom black,Mint,light-cyan and grey](./assets/images/color-choices.webp)
+</details>
+
 + I have chosen these colors because black gives it a minimalist feel and has been shwon to add a sense of power as well as the light grey to contrast well with the black and to offer a sense of simplicity and to make it feel larger. The mint and light cyan colours have been added as they have been shown  to offer a sense of tranquility and feeling refreshed. All of these i beleive are key takeaways from what multiple people hope to feel after a gym session. 
 
 ##### Styling
@@ -139,20 +147,33 @@ All images have been sourced from [pexels.com](https://www.pexels.com/)
  
  
  <details>
- <summary>Pages screenshots and dcreenshots of features described above</summary>
- 
+ <summary>Pages screenshots showing all features mentioned above</summary>
+ <details>
+ <summary>index.html screenshots</summary>
+
   ![image of homepage mv](./assets/images/index.html-mobile-ss.png)
   ![image of homepage dv](./assets/images/index.html-dv-ss.png)
+  </details>
+  <details>
+  <summary>take-the-tour.html screenshots</summary>
+
    ![image of ttt mv](./assets/images/ttt.html-mv-ss.png)
-    ![image of ttt dv](./assets/images/ttt.html-dv-ss.png)
-     ![image of whats on dv](./assets/images/whatson.html-dv-ss.png.png)
-      ![image of whats on mv](./assets/images/whatson.html-mv-ss.png)
-       ![image of confirmation mv](./assets/images/confirmation.html-mv-ss.png)
-        ![image of confirmation dv](./assets/images/confimration.html-dv-ss.png)
-![image of carousel of text](./assets/images/text-carousel.png)
- ![screenshot of footer](./assets/images/footer.png)
+   ![image of ttt dv](./assets/images/ttt.html-dv-ss.png)
+    </details>
+    <details>
+    <summary>whats-on.html screenshots</summary>
+
+   ![image of whats on dv](./assets/images/whatson.html-dv-ss.png.png)
+   ![image of whats on mv](./assets/images/whatson.html-mv-ss.png)
+</details>
+<details>
+<summary>confirmation.html screenshots</summary>
+
+  ![image of confirmation mv](./assets/images/confirmation.html-mv-ss.png)
+  ![image of confirmation dv](./assets/images/confimration.html-dv-ss.png)
+
  </details>
- 
+ </details>
 
  #### Features left to implement
  ---
@@ -187,6 +208,7 @@ All images have been sourced from [pexels.com](https://www.pexels.com/)
 + ![lighthouse test for whats on](/assets/images/lighthouse-test-whats-on.png)
 + ![lighthouse test for confirmation](/assets/images/lighthouse-test-confirmation.png)
 + HTML code tested at [validator.w3](https://validator.w3.org/) all pages passed with no errors or warnings.
+
 <details>
 <summary>test screenshots</summary>
   ![index.html](./assets/images/index.html%20check.png)
