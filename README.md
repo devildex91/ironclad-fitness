@@ -57,8 +57,8 @@ The main business goal is to bring in new clients by increasing membership intak
 <details>
 <summary>screenshot of navbar</summary>
 
-![navbar desktop view](./assets/images/navbar-section-dv.png)
-![ section mobile view](./assets/images/navbar-section-mv.png)
+![navbar desktop view](./assets/images/readme-images/navbar-section-dv.png)
+![ section mobile view](./assets/images/readme-images/navbar-section-mv.png)
 
 </details> 
 
@@ -66,8 +66,8 @@ The main business goal is to bring in new clients by increasing membership intak
  <details>
  <summary>screenshots of timetables</summary>
  
- ![timetables](./assets/images/timetable.png)
- ![carousel](./assets/images/special-event-ss.png)
+ ![timetables](./assets/images/readme-images/timetable.png)
+ ![carousel](./assets/images/readme-images/special-event-ss.png)
  
  </details>
 
@@ -77,8 +77,8 @@ The main business goal is to bring in new clients by increasing membership intak
   <details>
   <summary>Screenshot of take the tour page</summary>
   
-  ![image of ttt mv](./assets/images/ttt.html-mv-ss.png)
-   ![image of ttt dv](./assets/images/ttt.html-dv-ss.png)
+  ![image of ttt mv](./assets/images/readme-images/ttt.html-mv-ss.png)
+   ![image of ttt dv](./assets/images/readme-images/ttt.html-dv-ss.png)
 
   </details>
 
@@ -86,17 +86,18 @@ The main business goal is to bring in new clients by increasing membership intak
 <details>
 <summary>Screenshot of main pages</summary>
 
- ![image of homepage mv](./assets/images/index.html-mobile-ss.png)
-  ![image of homepage dv](./assets/images/index.html-dv-ss.png)
+ ![image of homepage mv](./assets/images/readme-images/index.html-mobile-ss.png)
+  ![image of homepage dv](./assets/images/readme-images/index.html-dv-ss.png)
 
 </details>
   
   + As a customer I would like to know what experience and qualifications the staff have to make sure that they will be able to help me if i need it.(to be implemented at a later date see acceptance criteria above for more info)
 
   + As a current member I would like to be able to book my place on classes through the website.
+  <details>
   <summary>screenshots of timetables</summary>
  
- ![timetables](./assets/images/timetable.png)
+ ![timetables](./assets/images/readme-images/timetable.png)
  
  </details>
 
@@ -104,7 +105,7 @@ The main business goal is to bring in new clients by increasing membership intak
 <details>
 <summary>Screenshop of membership section</summary>
 
-![membership options](./assets/images/membership-ss.png)
+![membership options](./assets/images/readme-images/membership-ss.png)
 
 </details>
 
@@ -136,7 +137,7 @@ The main business goal is to bring in new clients by increasing membership intak
 
 <summary>palete of colour choices</summary>
 
- ![palete of colors fron top to bottom black,Mint,light-cyan and grey](./assets/images/color-choices.webp)
+ ![palete of colors fron top to bottom black,Mint,light-cyan and grey](./assets/images/readme-images/color-choices.webp)
 </details>
 
 + I have chosen these colors because black gives it a minimalist feel and has been shwon to add a sense of power as well as the light grey to contrast well with the black and to offer a sense of simplicity and to make it feel larger. The mint and light cyan colours have been added as they have been shown  to offer a sense of tranquility and feeling refreshed. All of these i beleive are key takeaways from what multiple people hope to feel after a gym session. 
@@ -166,17 +167,17 @@ All images have been sourced from google Gemini to give the appearence of the co
 <details>
 <summary>Wireframe for screens < 579px </summary>
 
-+ ![wireframe for screens < 576px](./assets/images/Ironclad%20Fitness%20phoneframe.webp)
++ ![wireframe for screens < 576px](./assets/images/readme-images/Ironclad%20Fitness%20phoneframe.webp)
 </details>
 <details>
 <summary>Wireframe for screens >=768px</summary>
 
-+ ![wireframe for screens >=768px](./assets/images/Ironclad%20fitness%20tabletframe.webp)
++ ![wireframe for screens >=768px](./assets/images/readme-images/Ironclad%20fitness%20tabletframe.webp)
 </details>
 <details>
 <summary>Wireframe for screens >=992px</summary>
 
-+ ![wireframe for screens >=992px](./assets/images/Ironclad%20Fitness%20desktopframe.png)
++ ![wireframe for screens >=992px](./assets/images/readme-images/Ironclad%20Fitness%20desktopframe.png)
 </details>
 
 </details>
@@ -206,26 +207,26 @@ All images have been sourced from google Gemini to give the appearence of the co
  <details>
  <summary>index.html screenshots</summary>
 
-  ![image of homepage mv](./assets/images/index.html-mobile-ss.png)
-  ![image of homepage dv](./assets/images/index.html-dv-ss.png)
+  ![image of homepage mv](./assets/images/readme-images/index.html-mobile-ss.png)
+  ![image of homepage dv](./assets/images/readme-images/index.html-dv-ss.png)
   </details>
   <details>
   <summary>take-the-tour.html screenshots</summary>
 
-   ![image of ttt mv](./assets/images/ttt.html-mv-ss.png)
-   ![image of ttt dv](./assets/images/ttt.html-dv-ss.png)
+   ![image of ttt mv](./assets/images/readme-images/ttt.html-mv-ss.png)
+   ![image of ttt dv](./assets/images/readme-images/ttt.html-dv-ss.png)
     </details>
     <details>
     <summary>whats-on.html screenshots</summary>
 
-   ![image of whats on dv](./assets/images/whatson.html-dv-ss.png)
-   ![image of whats on mv](./assets/images/whatson.html-mv-ss.png)
+   ![image of whats on dv](./assets/images/readme-images/whatson.html-dv-ss.png)
+   ![image of whats on mv](./assets/images/readme-images/whatson.html-mv-ss.png)
 </details>
 <details>
 <summary>confirmation.html screenshots</summary>
 
-  ![image of confirmation mv](./assets/images/confirmation.html-mv-ss.png)
-  ![image of confirmation dv](./assets/images/confimration.html-dv-ss.png)
+  ![image of confirmation mv](./assets/images/readme-images/confirmation.html-mv-ss.png)
+  ![image of confirmation dv](./assets/images/readme-images/confimration.html-dv-ss.png)
 
  </details>
  </details>
@@ -251,7 +252,7 @@ All images have been sourced from google Gemini to give the appearence of the co
  
  ---
 +  Manual testing was carried out and all images loaded properly and all links worked perfectly.
-+ First batch of photo werent inkeeping with the layout and theme of the page and were not reacting properly so took the desicion to delete all pictures and use AI generated pictures which helped load times and were still good quality images but with a file size about 90% smaller sacrificing a tiny bit of image quality for better visuals and a better overall build.
++ First batch of photo werent inkeeping with the layout and theme of the page and were not reacting properly as heights were comig up short so took the desicion to delete all pictures and use AI generated pictures which helped load times and were still good quality images but with a file size about 90% smaller sacrificing a tiny bit of image quality for better visuals and a better overall build.
 + Photos were not being as reactive and sizing was not acting as intended so an extra css class .ttt-pics has been added in to provide a min-height for alignment purposes as screen gets larger to keep it responsive and looking good.
 + Once deployed first round of lighthouse testing was not up to scratch as the photos too large and taking too long to load.
 + Tried converting to webp file types and compressing them which improved the load time considerably but was still taking considerably longer than needed.
@@ -262,10 +263,10 @@ All images have been sourced from google Gemini to give the appearence of the co
    
 <summary>Lighthouse tests screenshots</summary>
 
- ![lighthouse test for index.html](/assets/images/lighthouse-test-index.png) 
-+ ![lighthouse test for take the tour](/assets/images/lighthouse-test-ttt.png)
-+ ![lighthouse test for whats on](/assets/images/lighthouse-test-whats-on.png)
-+ ![lighthouse test for confirmation](/assets/images/lighthouse-test-confirmation.png)
+ ![lighthouse test for index.html](/assets/images/readme-images/lighthouse-test-index.png) 
++ ![lighthouse test for take the tour](/assets/images/readme-images/lighthouse-test-ttt.png)
++ ![lighthouse test for whats on](/assets/images/readme-images/lighthouse-test-whats-on.png)
++ ![lighthouse test for confirmation](/assets/images/readme-images/lighthouse-test-confirmation.png)
 </details>
 
 + All lighthose testing in 90s apart from whats-on page as this page displays more content in the form of google fonts slowiong down loading times
@@ -274,10 +275,10 @@ All images have been sourced from google Gemini to give the appearence of the co
 <details>
 <summary>HTML tests screenshots</summary>
 
-![html test index.html](./assets/images/index.html%20check.png)
-![html test ttt.html](./assets/images/ttt.html-check.png)
-![html test whats-on](./assets/images/whats-on.htmlcheck.png)
-![html test confirmation](./assets/images/confirmation.htmlcheck.png)
+![html test index.html](./assets/images/readme-images/index.html%20check.png)
+![html test ttt.html](./assets/images/readme-images/ttt.html-check.png)
+![html test whats-on](./assets/images/readme-images/whats-on.htmlcheck.png)
+![html test confirmation](./assets/images/readme-images/confirmation.htmlcheck.png)
 </details>
 
 + HTML code tested at [validator.w3](https://validator.w3.org/) all pages passed with no errors or warnings.
@@ -300,9 +301,9 @@ All images have been sourced from google Gemini to give the appearence of the co
 <details>
 <summary>  Contrast testing screenshots</summary>
 
-![navbar/footer colours](./assets/images/navbar-contrast-checker.png)
-![header contrast](./assets/images/header-contrast-check.png)
-![main contrast](./assets/images/main-contrast-check.png)
+![navbar/footer colours](./assets/images/readme-images/navbar-contrast-checker.png)
+![header contrast](./assets/images/readme-images/header-contrast-check.png)
+![main contrast](./assets/images/readme-images/main-contrast-check.png)
 </details>
 
 + Navbar/footer contrast check all passed black background with light grey text(first image)
@@ -324,9 +325,9 @@ All images have been sourced from google Gemini to give the appearence of the co
  ---
 
  1. Go to [devildex91/ironclad-fitness](https://github.com/devildex91/ironclad-fitness).
- 2. click on the settings button ![settings](./assets/images/settings.png)
- 3. Scroll down and click on pages ![pages](./assets/images/pages.png)
- 4. In the branch select main ![main](./assets/images/main-button.png)
+ 2. click on the settings button ![settings](./assets/images/readme-images/settings.png)
+ 3. Scroll down and click on pages ![pages](./assets/images/readme-images/pages.png)
+ 4. In the branch select main ![main](./assets/images/readme-images/main-button.png)
  5. Refresh the page(this may take a couple of minutes to update) and click the link to view.
  </details>
  <details>
@@ -335,8 +336,8 @@ All images have been sourced from google Gemini to give the appearence of the co
  ---
 
  1. Navigate to [devildex91/ironclad-fitness](https://github.com/devildex91/ironclad-fitness)
- 2. Click on the green code button ![picture of green code button](./assets/images/code-button.webp) 
- 3. Select download zip as shown. (This will save a copy of of the repository on your device). ![image of download zip to click on](./assets/images/downloadzip.webp).
+ 2. Click on the green code button ![picture of green code button](./assets/images/readme-images/code-button.webp) 
+ 3. Select download zip as shown. (This will save a copy of of the repository on your device). ![image of download zip to click on](./assets/images/readme-images/downloadzip.webp).
  4. Once downloaded unpack zipped file to a location of your choosing and you can work on and run the code in an IDE of your choosing(Have fun). 
  </details>
  <details>
