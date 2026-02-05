@@ -1,7 +1,7 @@
 # ironclad-fitness
 
 ## Table of Contents 
-1. ### [UX](#1-ux)
+1. ### UX
 
 + Primary Goals
 + Business Goals
@@ -10,19 +10,19 @@
 + Design Choices 
 + Wireframes 
 
-2. ### [Features](#2-features) 
+2. ### Features
 + Existing Features 
 + Features left to implement
 
-3. ### [Technologies used](#3-technologies-used)
+3. ### Technologies used
   
-4. ### [Testing](#4-testing)
+4. ### Testing
 
-5. ### [Deployment](#5--deployment)
+5. ### Deployment
 
 + How to run this project
 
-6. ### [Credits](#6-credits) 
+6. ### Credits
 + Content
 + Media
 + Code 
@@ -47,13 +47,13 @@ The main business goal is to bring in new clients by increasing membership intak
 ---
 
 + The user goals for new users are to find somewhere they feel comfortable to either start training for the first time or just somewhere they feel better suited to training. 
-+ Current members user goals are to check what i going on at the gym such as classes they could book in for or opening hours during holidays as well as any special offers they may be able to take advantage of.
++ Current members user goals are to check what is going on at the gym such as classes they could book in for, or opening hours during holidays, as well as any special offers they may be able to take advantage of.
 
 #### User Stories
 ---
  + For full Acceptance Criteria and tasks please follow [this link](https://github.com/users/devildex91/projects/4) to the project board for Ironclad Fitness
 
- +  As a first time visiter to the site I would like everything to be easy to find to so i can easily navigate to wherever I would like to on the site.
+ +  As a first time visitor to the site I would like everything to be easy to find to so i can easily navigate to wherever I would like to on the site.
 <details>
 <summary>screenshot of navbar</summary>
 
@@ -114,17 +114,21 @@ The main business goal is to bring in new clients by increasing membership intak
 + I have chosen to use bootstrap grid for my responsive design and where possible use bootstrap components for the bare bones.
 + Within my responsive layout I intend to keep everything centred as well as possible so it all follows the same flow.
 + My reasoning for centring most components is to keep things simple for the user so they know where everything is going to be and like a workout you dont need to do anything flashy just keep it simple yet effective and you will see the results you want. 
-+ Responsive navbar that uses the avaliable space whilst keeping things minimalist for the best user experience.
++ A responsive navbar that uses the avaliable space whilst keeping things minimalist for the best user experience.
 + Footers will be kept consistent throughout so that it is intuitive for the user and key information is allways in the same place regardless of what device is used.
 + I will put all Membership options as cards rather than a table to make them stand out and make them clear and consise to the user what the differences are because if i put in too much detail it will distract and potentially bore the user before they have chance to see the benefits of our gym.
 + All sections where applicable will have a clear title to show the user what that section is about so it is easy for the user to navigate their way around the site.
-+ Headers and footers will be identical no matter the page you are on so that the key information needed is allways accesible and exactly where the user expects it to be.
++ Headers and footers will follow the same colour format and layouts no matter the page you are on so that the key information needed is allways accesible and exactly where the user expects it to be.
 
 
 ##### Fonts
 ---
 + Archivo black-Titles
 + Kite One- paragraphs  
+<details>
+<summary>Fonts</summary>
+![font-choices](./assets/images/readme-images/font-choice.png)
+</details>
 + Archivo one because it is bold and strong and subconsciously represents the weight lifting. 
 + Kite one has been chosen for main content as it is easily readable, contrasts well to Archivo and is more of an active looking font to reference the cardio aspects of gym life.
 
@@ -149,7 +153,7 @@ The main business goal is to bring in new clients by increasing membership intak
 + Firstly the overall responsivness of the website will use bootstrap grid properties with a mixture of built in bootstrap styling and and overiding styles will use a local CSS file.
 + Fonts for styling have been imported from [google fonts.](https://fonts.google.com/selection/embed)
 + The overall colour scheme for the styling has been chosen from [color palete.](https://colorhunt.co/palette/000000cfffe2a2d5c6f6f6f6)  
-+ Any favicons added in both the title and within any headings and link for readibility will be taken from [fontawesome.](https://fontawesome.com/)
++ Any favicons added will be taken from google Gemini like the pictures so they are in keeping with the same style and color scheme as the rest of the page
 + The website has been styled so that it is for the most part all centred where possible or evenly spread out to give a regimented feel like most workouts to show that its not about fancy equipment but consistency to get to your goals which means the layout matches with the views of the gym.
 + The only exception to this is the motivational quotes on the take the tour page which are designed to be off center so they stand out like intended.
 ##### Background
@@ -162,6 +166,7 @@ The main business goal is to bring in new clients by increasing membership intak
 ---
 
 All images have been sourced from google Gemini to give the appearence of the company giving me a selection of pictures to work from which are of a good enough to display the theme of the website and reflect the palete of colours chosen.
+The favicons in the navbar and footer are also from google Gemini.
 ##### Wireframes
 
 ---
@@ -169,17 +174,17 @@ All images have been sourced from google Gemini to give the appearence of the co
 <details>
 <summary>Wireframe for screens < 579px </summary>
 
-+ ![wireframe for screens < 576px](./assets/images/readme-images/Ironclad%20Fitness%20phoneframe.webp)
++ ![wireframe for screens < 576px](./assets/images/readme-images/Ironclad-Fitness-phoneframe.webp)
 </details>
 <details>
 <summary>Wireframe for screens >=768px</summary>
 
-+ ![wireframe for screens >=768px](./assets/images/readme-images/Ironclad%20fitness%20tabletframe.webp)
++ ![wireframe for screens >=768px](./assets/images/readme-images/Ironclad-fitness-tabletframe.webp)
 </details>
 <details>
 <summary>Wireframe for screens >=992px</summary>
 
-+ ![wireframe for screens >=992px](./assets/images/readme-images/Ironclad%20Fitness%20desktopframe.png)
++ ![wireframe for screens >=992px](./assets/images/readme-images/Ironclad-Fitness-desktopframe.png)
 </details>
 
 </details>
@@ -191,13 +196,13 @@ All images have been sourced from google Gemini to give the appearence of the co
  #### Existing Features
  ---
  + Responsive layout that works on both mobile and desktop for all pages
-  + carousel of text that features key information for users and gym goers
+  + Carousel of text that features key information for users and gym goers
  + Clearly displayed membership options as well as a form to book your membership.
  + Opening times and contact details clearly displayed in same place on every page no matter the screen for a more intuitive experience.
-+ Images of both weights room and fitness suitesresponsive for all screen sizes
++ Images of both Weights room and Fitness suites responsive for all screen sizes.
 + The ability to see what events are on each week as well as a form to book your place as well any costs you may be subject to pay and how to pay.
-+ A confimration page that lets the user know they have submitted the form succesfully.
-+ hover effects on all forms to know exactly which box you have selected as well as hover effects on links in the nav bar for easier navigation as well as on images.
++ A confirmration page that lets the user know they have submitted the form succesfully.
++ Hover effects on all forms to know exactly which box you have selected as well as hover effects on links in the nav bar for easier navigation as well as on images.
 + links to every page and links to specific sections of the page such as membership options and to book a class.  
 
  
@@ -231,6 +236,14 @@ All images have been sourced from google Gemini to give the appearence of the co
   ![image of confirmation dv](./assets/images/readme-images/confimration.html-dv-ss.png)
 
  </details>
+ <details>
+ <summary>hover effect screenshot</summary>
+
+![link-hover](./assets/images/readme-images/link-hover.png)
+![img-hover](./assets/images/readme-images/image-hover.png)
+![form-hover](./assets/images/readme-images/form-hover.png)
+
+ </details>
  </details>
 
  #### Features left to implement
@@ -245,7 +258,7 @@ All images have been sourced from google Gemini to give the appearence of the co
   ---
   + Visual Studios used as the primary IDE. 
   + Bootstrap(v5.3) for main layout and responsive design. 
-  + flexbox for improved responsive design.  
+  + Flexbox for improved responsive design.  
   + Google Gemini for photos and company logo used in navbar and copyright at bottom of page 
   + Github for deployment. 
  </details> 
@@ -253,9 +266,10 @@ All images have been sourced from google Gemini to give the appearence of the co
  <summary>4. Testing</summary>
  
  ---
-+  Manual testing was carried out and all images loaded properly and all links worked perfectly.
++  Manual testing was carried out once uploaded checked all images loaded properly and all links worked correctly and everything behaved as it should.
++ FOllowing manual testing I noticed the following:
 + First batch of photo werent inkeeping with the layout and theme of the page and were not reacting properly as heights were comig up short so took the desicion to delete all pictures and use AI generated pictures which helped load times and were still good quality images but with a file size about 90% smaller sacrificing a tiny bit of image quality for better visuals and a better overall build.
-+ Photos were not being as reactive and sizing was not acting as intended so an extra css class .ttt-pics has been added in to provide a min-height for alignment purposes as screen gets larger to keep it responsive and looking good.
++ Photos were not being as reactive and sizing was still not acting as intended so an extra css class .ttt-pics has been added in to provide a min-height for alignment purposes as screen gets larger to keep it responsive and looking as it should.
 + Once deployed first round of lighthouse testing was not up to scratch as the photos too large and taking too long to load.
 + Tried converting to webp file types and compressing them which improved the load time considerably but was still taking considerably longer than needed.
 + Fixed this by compressing and reducing image size as well as converting to avif files and load times improved comsiderably.
@@ -271,7 +285,7 @@ All images have been sourced from google Gemini to give the appearence of the co
 + ![lighthouse test for confirmation](/assets/images/readme-images/lighthouse-test-confirmation.png)
 </details>
 
-+ All lighthose testing in 90s apart from whats-on page as this page displays more content in the form of google fonts slowiong down loading times
++ All lighthose testing in 90s apart from whats-on page as this page displays more content in the form of google fonts slowing down loading times.
 + All photos have been updated to Ai generated ones which have then been converted to avif files and compressed so are of a good enough quality for normal visuals but lower the best practices scores by a couple of percent but improve load times by almost 20% which i believe is a good compromise as if it was a real company photos would all be provided by the company 
 
 <details>
@@ -377,7 +391,7 @@ All images have been sourced from google Gemini to give the appearence of the co
 + flexbox also used to help with alignment issues and customise further from bootstrap standard.
 + bootstrap used for carousel but took out image component to make text carousel.
 #### Acknoledgements
-+ [geekforgeeks](https://www.geeksforgeeks.org/)used for transform property on hover elements on images and links in navbar. 
++ [geekforgeeks](https://www.geeksforgeeks.org/) used for transform property on hover elements on images and links in navbar. 
 </details>
 
 
