@@ -14,15 +14,11 @@ Kite One-main content*/
 /*general styles*/
 body {
     background-color: var(--primary-color);
-    font-family: var(--secondary-font);
-    
-    
+    font-family: var(--secondary-font);  
 }
 h1,h2,h3{
-    font-family: var(--header-font);
-    
+    font-family: var(--header-font); 
 }
-
 main{
     background-color: var(--secondary-color);
 }
@@ -108,7 +104,6 @@ img:hover{
     display: flex;
     justify-content: center;
     width:16rem;
-    
 }
 /*changes background colour of cards to better fit with style*/
 .card-body{
@@ -157,7 +152,6 @@ font-size: x-small;
 }
 /*header order for tablets and larger*/
 @media (min-width: 768px){
-
     #header-pic{
         order:2;
         height:100%;
