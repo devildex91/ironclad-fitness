@@ -60,18 +60,53 @@ The main business goal is to bring in new clients by increasing membership intak
 ![navbar desktop view](./assets/images/navbar-section-dv.png)
 ![ section mobile view](./assets/images/navbar-section-mv.png)
 
-<details> 
- + As a member I would like access to a weekly timetable of classes and special events that are happening.
+</details> 
 
- + As I have a very busy schedule i would like to be able to find out the busiest times of day by visiting your website so i can fit my visits around my lifestyle without standing around waiting for machines and equipment.
+ + As a member I would like access to a weekly timetable of classes and special events that are happening.
+ <details>
+ <summary>screenshots of timetables</summary>
+ 
+ ![timetables](./assets/images/timetable.png)
+ ![carousel](./assets/images/special-event-ss.png)
+ 
+ </details>
+
+ + As I have a very busy schedule i would like to be able to find out the busiest times of day by visiting your website so i can fit my visits around my lifestyle without standing around waiting for machines and equipment.(to be implemented at a later date see acceptance criteria above for more info)
   
   + As a potential new customer i would like to see some images of the different parts of the gym so i can see what machines are being used and to make sure it has the right feel for me.
+  <details>
+  <summary>Screenshot of take the tour page</summary>
+  
+  ![image of ttt mv](./assets/images/ttt.html-mv-ss.png)
+   ![image of ttt dv](./assets/images/ttt.html-dv-ss.png)
+
+  </details>
 
   + I would like to be able able to view this website on any of my devices so i manage my membership on the go. 
+<details>
+<summary>Screenshot of main pages</summary>
+
+ ![image of homepage mv](./assets/images/index.html-mobile-ss.png)
+  ![image of homepage dv](./assets/images/index.html-dv-ss.png)
+
+</details>
   
-  + As a customer I would like to know what experience and qualifications the staff have to make sure that they will be able to help me if i need it. 
+  + As a customer I would like to know what experience and qualifications the staff have to make sure that they will be able to help me if i need it.(to be implemented at a later date see acceptance criteria above for more info)
 
   + As a current member I would like to be able to book my place on classes through the website.
+  <summary>screenshots of timetables</summary>
+ 
+ ![timetables](./assets/images/timetable.png)
+ 
+ </details>
+
++ As A new visitor I would like to see membership options and sign up online.
+<details>
+<summary>Screenshop of membership section</summary>
+
+![membership options](./assets/images/membership-ss.png)
+
+</details>
 
 #### Design Choices
 ---
@@ -183,7 +218,7 @@ All images have been sourced from google Gemini to give the appearence of the co
     <details>
     <summary>whats-on.html screenshots</summary>
 
-   ![image of whats on dv](./assets/images/whatson.html-dv-ss.png.png)
+   ![image of whats on dv](./assets/images/whatson.html-dv-ss.png)
    ![image of whats on mv](./assets/images/whatson.html-mv-ss.png)
 </details>
 <details>
