@@ -103,6 +103,7 @@ img:hover{
     display:flex;
     justify-content: space-around;
 }
+/*custom width for membership cards */
 #bronze, #silver, #gold{
     display: flex;
     justify-content: center;
@@ -128,7 +129,7 @@ img:hover{
     border-color: var(--highlight-color);
 }
 /*confirmation*/
-/*styling to make h2 look like a p for better semantic html*/
+/* background colors different to rest so that when main content moves header background color doesnt appear underneath*/
 #confirm-page{
     background-color: var(--secondary-color);
 }
