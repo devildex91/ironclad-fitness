@@ -150,8 +150,8 @@ font-size: x-small;
 #opening-times th, #opening-times td{
     color:var(--highlight-color);
 }
-/*header order for tablets and larger*/
 @media (min-width: 768px){
+  /*index.html header order for tablet and larger*/
     #header-pic{
         order:2;
         height:100%;
