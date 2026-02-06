@@ -43,7 +43,7 @@ The primary goal of Ironclad Fitness is to provide a eye catching, informative, 
 #### Business Goals
 ---
 
-The main business goal is to bring in new clients by increasing membership intake while decreasing membership fall off after a new year spike. They aim to showcase all of the great benefits of their gym that far outweigh just the equipment on the floor by showcasing what a great community spirit can be gained as well as showcasing that its not just for bodybuilders but a place for every person at every level of fitness.
+The main business goal is to bring in new clients by increasing membership intake while decreasing membership fall off after a new year spike. They aim to showcase all of the great benefits of their gym that far outweigh just the equipment on the floor. This will be done by showcasing what a great community spirit can be gained, as well as showcasing that its not just for bodybuilders but a place for every person at every level of fitness.
 
 [back to top](#ironclad-fitness)
 
@@ -151,9 +151,6 @@ The main business goal is to bring in new clients by increasing membership intak
  + #CFFFE2 Mint
  + #A2D5C6 light-cyan
 + #F6F6F6 grey 
-
-[back to top](#ironclad-fitness)
-
 <details>
 
 <summary>palete of colour choices</summary>
@@ -161,7 +158,7 @@ The main business goal is to bring in new clients by increasing membership intak
  ![palete of colors fron top to bottom black,Mint,light-cyan and grey](./assets/images/readme-images/color-choices.webp)
 </details>
 
-+ I have chosen these colors because black gives it a minimalist feel and has been shwon to add a sense of power as well as the light grey to contrast well with the black and to offer a sense of simplicity and to make it feel larger. The mint and light cyan colours have been added as they have been shown  to offer a sense of tranquility and feeling refreshed. All of these i beleive are key takeaways from what multiple people hope to feel after a gym session. 
++ I have chosen these colors because black gives it a minimalist feel and has been shown to add a sense of power as well as the light grey to contrast well with the black and to offer a sense of simplicity which makes it feel larger. The mint and light cyan colours have been added as they have been shown to offer a sense of tranquility and feeling refreshed. All of these I beleive are key takeaways from what multiple people hope to feel after a gym session. 
 
 [back to top](#ironclad-fitness)
 
@@ -183,7 +180,7 @@ The main business goal is to bring in new clients by increasing membership intak
 
 [back to top](#ironclad-fitness)
 
-##### images
+##### Images
 ---
 
 All images have been sourced from google Gemini to give the act like a folder of company photos. This then acts as my inspiration for the theme of the website and reflect the palete of colours chosen.
@@ -405,6 +402,7 @@ The favicons in the navbar and footer are also from google Gemini.
 
 <details>
 <summary> 6. Credits</summary>
+
 ---
 
 #### Content 
