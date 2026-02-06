@@ -1,5 +1,5 @@
 # ironclad-fitness
-
+[To view site](https://devildex91.github.io/ironclad-fitness/)
 ## Table of Contents
 
 1. ### UX
