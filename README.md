@@ -38,16 +38,22 @@
 
 The primary goal of Ironclad Fitness is to provide a eye catching, informative, and easy to navigate website that will showcase all the great things about Ironclad Fitness. The main target audience for this website will be current members who want to see what else is avaliable to them at Ironclad Fitness and potential new members looking for somewhere new to train or somewhere to train for the first time.
 
+[back to top](#ironclad-fitness)
+
 #### Business Goals
 ---
 
 The main business goal is to bring in new clients by increasing membership intake while decreasing membership fall off after a new year spike. They aim to showcase all of the great benefits of their gym that far outweigh just the equipment on the floor by showcasing what a great community spirit can be gained as well as showcasing that its not just for bodybuilders but a place for every person at every level of fitness.
+
+[back to top](#ironclad-fitness)
 
 #### User Goals
 ---
 
 + The user goals for new users are to find somewhere they feel comfortable to either start training for the first time or just somewhere they feel better suited to training. 
 + Current members user goals are to check what is going on at the gym such as classes they could book in for, or opening hours during holidays, as well as any special offers they may be able to take advantage of.
+
+[back to top](#ironclad-fitness)
 
 #### User Stories
 ---
@@ -109,17 +115,20 @@ The main business goal is to bring in new clients by increasing membership intak
 
 </details>
 
+[back to top](#ironclad-fitness)
+
 #### Design Choices
 ---
 + I have chosen to use bootstrap grid for my responsive design and where possible use bootstrap components for the bare bones.
 + Within my responsive layout I intend to keep everything centred as well as possible so it all follows the same flow.
-+ My reasoning for centring most components is to keep things simple for the user so they know where everything is going to be and like a workout you dont need to do anything flashy just keep it simple yet effective and you will see the results you want. 
++ My reasoning for centring most components is to keep things simple for the user, so they know where everything is going to be and like a workout you dont need to do anything flashy, just keep it simple yet effective and you will see the results you want. 
 + A responsive navbar that uses the avaliable space whilst keeping things minimalist for the best user experience.
 + Footers will be kept consistent throughout so that it is intuitive for the user and key information is allways in the same place regardless of what device is used.
-+ I will put all Membership options as cards rather than a table to make them stand out and make them clear and consise to the user what the differences are because if i put in too much detail it will distract and potentially bore the user before they have chance to see the benefits of our gym.
++ I will put all Membership options as cards rather than a table to make them stand out and make them clear and consise to the user what the differences are. Because if I include too much information it will distract and overload the user into looking elsewhere, having the opposite effect of what we are aiming for. 
 + All sections where applicable will have a clear title to show the user what that section is about so it is easy for the user to navigate their way around the site.
 + Headers and footers will follow the same colour format and layouts no matter the page you are on so that the key information needed is allways accesible and exactly where the user expects it to be.
 
+[back to top](#ironclad-fitness)
 
 ##### Fonts
 ---
@@ -127,10 +136,14 @@ The main business goal is to bring in new clients by increasing membership intak
 + Kite One- paragraphs  
 <details>
 <summary>Fonts</summary>
+
 ![font-choices](./assets/images/readme-images/font-choice.png)
 </details>
-+ Archivo one because it is bold and strong and subconsciously represents the weight lifting. 
+
++ I have chosen Archivo one because it is bold and strong and subconsciously represents the weight lifting. 
 + Kite one has been chosen for main content as it is easily readable, contrasts well to Archivo and is more of an active looking font to reference the cardio aspects of gym life.
+
+[back to top](#ironclad-fitness)
 
 ##### Colours
 ---
@@ -138,6 +151,8 @@ The main business goal is to bring in new clients by increasing membership intak
  + #CFFFE2 Mint
  + #A2D5C6 light-cyan
 + #F6F6F6 grey 
+
+[back to top](#ironclad-fitness)
 
 <details>
 
@@ -148,25 +163,34 @@ The main business goal is to bring in new clients by increasing membership intak
 
 + I have chosen these colors because black gives it a minimalist feel and has been shwon to add a sense of power as well as the light grey to contrast well with the black and to offer a sense of simplicity and to make it feel larger. The mint and light cyan colours have been added as they have been shown  to offer a sense of tranquility and feeling refreshed. All of these i beleive are key takeaways from what multiple people hope to feel after a gym session. 
 
+[back to top](#ironclad-fitness)
+
 ##### Styling
 ---
-+ Firstly the overall responsivness of the website will use bootstrap grid properties with a mixture of built in bootstrap styling and and overiding styles will use a local CSS file.
 + Fonts for styling have been imported from [google fonts.](https://fonts.google.com/selection/embed)
 + The overall colour scheme for the styling has been chosen from [color palete.](https://colorhunt.co/palette/000000cfffe2a2d5c6f6f6f6)  
 + Any favicons added will be taken from google Gemini like the pictures so they are in keeping with the same style and color scheme as the rest of the page
 + The website has been styled so that it is for the most part all centred where possible or evenly spread out to give a regimented feel like most workouts to show that its not about fancy equipment but consistency to get to your goals which means the layout matches with the views of the gym.
 + The only exception to this is the motivational quotes on the take the tour page which are designed to be off center so they stand out like intended.
+
+[back to top](#ironclad-fitness)
+
 ##### Background
 --- 
-+ The navbar and footer will be styled with a black background and the light grey from the chosen colours will be used for the font in these for contrast and readability.
-+ The header section will be mint and the main content will be light cyan as these colours sit nicely together without drawing too much attention away from the other section while clearly defining  the different parts of the page.
++ The navbar and footer will be styled with a black background and the light grey from the chosen colours will be used for the font in these for contrast and readability. These colours will also act as a frame drawing you into the main content sections.
++ The header section will be mint and the main content will be light cyan. This is because these colours sit nicely together without drawing too much attention away from the content of the different sections. They also clearly define the different parts of the page.
 + I debated using a background image to improve it visually but decided against as felt it would distract from the simplistic design of the page showcasing that training isnt all about using the latest fancy gimics but simple and consistent which reflects in the choices of background.
+
+[back to top](#ironclad-fitness)
 
 ##### images
 ---
 
-All images have been sourced from google Gemini to give the appearence of the company giving me a selection of pictures to work from which are of a good enough to display the theme of the website and reflect the palete of colours chosen.
+All images have been sourced from google Gemini to give the act like a folder of company photos. This then acts as my inspiration for the theme of the website and reflect the palete of colours chosen.
 The favicons in the navbar and footer are also from google Gemini.
+
+[back to top](#ironclad-fitness)
+
 ##### Wireframes
 
 ---
@@ -189,6 +213,9 @@ The favicons in the navbar and footer are also from google Gemini.
 
 </details>
 <details>
+
+[back to top](#ironclad-fitness)
+
  <summary> 2. Features </summary>
 
  ---
@@ -205,10 +232,6 @@ The favicons in the navbar and footer are also from google Gemini.
 + Hover effects on all forms to know exactly which box you have selected as well as hover effects on links in the nav bar for easier navigation as well as on images.
 + links to every page and links to specific sections of the page such as membership options and to book a class.  
 
- 
- 
- 
- 
  <details>
  <summary>Pages screenshots showing all features mentioned above</summary>
  <details>
@@ -244,7 +267,14 @@ The favicons in the navbar and footer are also from google Gemini.
 ![form-hover](./assets/images/readme-images/form-hover.png)
 
  </details>
+ <details>
+ <summary>Text carousel</summary>
+
+ ![text-carousel](./assets/images/readme-images/text-carousel.png)
  </details>
+ </details>
+ 
+[back to top](#ironclad-fitness)
 
  #### Features left to implement
  ---
@@ -263,6 +293,9 @@ The favicons in the navbar and footer are also from google Gemini.
   + Github for deployment. 
  </details> 
  <details>
+
+[back to top](#ironclad-fitness)
+
  <summary>4. Testing</summary>
  
  ---
@@ -275,8 +308,6 @@ The favicons in the navbar and footer are also from google Gemini.
 + Fixed this by compressing and reducing image size as well as converting to avif files and load times improved comsiderably.
 + main section of confirmation rising on further inspection so background colour changed for confirmation page to allow the main section to move without effecting the visuals of the page.
 <details>
-
-   
 <summary>Lighthouse tests screenshots</summary>
 
  ![lighthouse test for index.html](/assets/images/readme-images/lighthouse-test-index.png) 
@@ -329,6 +360,9 @@ The favicons in the navbar and footer are also from google Gemini.
 
 </details>
 <details>
+
+[back to top](#ironclad-fitness)
+
 <summary> 5 . Deployment</summary>
 
 ---
@@ -368,6 +402,9 @@ The favicons in the navbar and footer are also from google Gemini.
 + ##### Note for anybody working on this code that bootstrap 5.3 has been used to create much of the page and should be reused by yourself to ensure it all works as intended.
 </details>
 <details>
+
+[back to top](#ironclad-fitness)
+
 <summary> 6. Credits</summary>
 ---
 
@@ -380,10 +417,14 @@ The favicons in the navbar and footer are also from google Gemini.
 + basic form layout and buttons from [bootstrap](https://getbootstrap.com/)
 + All basic bootstrap elements have custom layouts and classes on top of to polish off layout to suit the page.
 
+[back to top](#ironclad-fitness)
+
 #### Media 
 ---
 + All pictures and favicons generated using Google Gemini. 
 + for all image optimisation [squoosh](https://squoosh.app/) has been used to help with the resize of images and compression tasks.
+
+[back to top](#ironclad-fitness)
 
 #### Code 
 ---
@@ -393,6 +434,8 @@ The favicons in the navbar and footer are also from google Gemini.
 #### Acknoledgements
 + [geekforgeeks](https://www.geeksforgeeks.org/) used for transform property on hover elements on images and links in navbar. 
 </details>
+
+[back to top](#ironclad-fitness)
 
 
 
