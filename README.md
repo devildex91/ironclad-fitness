@@ -306,7 +306,7 @@ The main business goal is to bring in new clients by increasing membership intak
 + Tried converting to webp file types and compressing them which improved the load time considerably but was still taking considerably longer than needed.
 + Fixed this by compressing and reducing image size as well as converting to avif files and load times improved comsiderably.
 + main section of confirmation rising on further inspection so background colour changed for confirmation page to allow the main section to move without effecting the visuals of the page.
-+ fontawsome link had been deleted so was readded to fix social media links
++ On final inspection I noticed that while cleaning up the code I managed to delete link for fontawesome meaning all of my social media icons dissapeared so i have reinserted this link and recarried out all html and lighthouse tests and uploaded new screenshots of the new test speeds and everything is still working as intended. 
 <details>
 <summary>Lighthouse tests screenshots</summary>
 
