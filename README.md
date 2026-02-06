@@ -166,7 +166,8 @@ The main business goal is to bring in new clients by increasing membership intak
 ---
 + Fonts for styling have been imported from [google fonts.](https://fonts.google.com/selection/embed)
 + The overall colour scheme for the styling has been chosen from [color palete.](https://colorhunt.co/palette/000000cfffe2a2d5c6f6f6f6)  
-+ Any favicons added will be taken from google Gemini like the pictures so they are in keeping with the same style and color scheme as the rest of the page
++ THe company logo will be taken from google Gemini like the pictures so they are in keeping with the same style and color scheme as the rest of the page.
++ The favicons for the social media links will be from [fontawesome](https://fontawesome.com/) so they are easy to style to suit the colour scheme of the site.
 + The website has been styled so that it is for the most part all centred where possible or evenly spread out to give a regimented feel like most workouts to show that its not about fancy equipment but consistency to get to your goals which means the layout matches with the views of the gym.
 + The only exception to this is the motivational quotes on the take the tour page which are designed to be off center so they stand out like intended.
 
@@ -185,7 +186,7 @@ The main business goal is to bring in new clients by increasing membership intak
 
 + All images have been sourced from google Gemini to give the act like a folder of company photos. This then acts as my inspiration for the theme of the website and reflect the palete of colours chosen.
 + The favicons in the navbar and footer are also from google Gemini.
-+ favicons from fontawesome.
++ favicons from [fontawesome](https://fontawesome.com/)
 
 [back to top](#ironclad-fitness)
 
@@ -304,10 +305,10 @@ The main business goal is to bring in new clients by increasing membership intak
 + This was done with media querys at 768px, 1200px, and 1400px wide to make sure it couldnt change from intended layout.
 + Once deployed first round of lighthouse testing was not up to scratch as the photos too large and taking too long to load.
 + Tried converting to webp file types and compressing them which improved the load time considerably but was still taking considerably longer than needed.
-+ Fixed this by compressing and reducing image size as well as converting to avif files and load times improved comsiderably.
++ Fixed this by compressing and reducing image size as well as converting to avif files and load times improved considerably.
 + main section of confirmation rising on further inspection so background colour changed for confirmation page to allow the main section to move without effecting the visuals of the page.
 + On final inspection I noticed that while cleaning up the code I managed to delete link for fontawesome meaning all of my social media icons dissapeared so i have reinserted this link and recarried out all html and lighthouse tests and uploaded new screenshots of the new test speeds and everything is still working as intended. 
-+ While carrying out final; testing noticed the alt attributes were for the old pictures and had not yet been picked up. This has now been changed and all image alt attributes have been updated.
++ While carrying out final testing I also noticed the alt attributes were for the old pictures and had not yet been picked up. This has now been changed and all image alt attributes have been updated.
 <details>
 <summary>Lighthouse tests screenshots</summary>
 
@@ -423,7 +424,7 @@ The main business goal is to bring in new clients by increasing membership intak
 ---
 + All pictures and favicons generated using Google Gemini. 
 + for all image optimisation [squoosh](https://squoosh.app/) has been used to help with the resize of images and compression tasks.
-+ All favicons for social media links from fontawesome.
++ All favicons for social media links from [fontawesome](https://fontawesome.com/)
 
 [back to top](#ironclad-fitness)
 
@@ -432,6 +433,10 @@ The main business goal is to bring in new clients by increasing membership intak
 + responsiveness grid from [bootstrap v5.3](https://getbootstrap.com/)
 + flexbox also used to help with alignment issues and customise further from bootstrap standard.
 + bootstrap used for carousel but took out image component to make text carousel.
++ card for membership options from [bootstrap v5.3](https://getbootstrap.com/) 
++ tables from whatss on page is from [bootstrap v5.3](https://getbootstrap.com/)
++ All bootstrap components have custom content as well as custom classes to make the code easier to update  
++ All major fonts and background colours are in custom css variables to make any later changes or updates easier to do.
 #### Acknoledgements
 + [geekforgeeks](https://www.geeksforgeeks.org/) used for transform property on hover elements on images and links in navbar. 
 </details>
