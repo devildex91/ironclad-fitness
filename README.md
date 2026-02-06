@@ -183,8 +183,9 @@ The main business goal is to bring in new clients by increasing membership intak
 ##### Images
 ---
 
-All images have been sourced from google Gemini to give the act like a folder of company photos. This then acts as my inspiration for the theme of the website and reflect the palete of colours chosen.
-The favicons in the navbar and footer are also from google Gemini.
++ All images have been sourced from google Gemini to give the act like a folder of company photos. This then acts as my inspiration for the theme of the website and reflect the palete of colours chosen.
++ The favicons in the navbar and footer are also from google Gemini.
++ favicons from fontawesome.
 
 [back to top](#ironclad-fitness)
 
@@ -305,6 +306,7 @@ The favicons in the navbar and footer are also from google Gemini.
 + Tried converting to webp file types and compressing them which improved the load time considerably but was still taking considerably longer than needed.
 + Fixed this by compressing and reducing image size as well as converting to avif files and load times improved comsiderably.
 + main section of confirmation rising on further inspection so background colour changed for confirmation page to allow the main section to move without effecting the visuals of the page.
++ fontawsome link had been deleted so was readded to fix social media links
 <details>
 <summary>Lighthouse tests screenshots</summary>
 
@@ -420,6 +422,7 @@ The favicons in the navbar and footer are also from google Gemini.
 ---
 + All pictures and favicons generated using Google Gemini. 
 + for all image optimisation [squoosh](https://squoosh.app/) has been used to help with the resize of images and compression tasks.
++ All favicons for social media links from fontawesome.
 
 [back to top](#ironclad-fitness)
 
