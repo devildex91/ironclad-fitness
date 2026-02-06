@@ -1,182 +1,198 @@
 /* google fonts 
 Archivo Black titles 
 Kite One-main content*/
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Kite+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Kite+One&display=swap");
 
 /*root variables*/
 :root {
---primary-color:#CFFFE2;/*Mint*/
---secondary-color:#A2D5C6; /* cyan*/
---highlight-color:#F6F6F6; /*light grey*/
---header-font:"Archivo Black", sans-serif ;
---secondary-font:"Kite One", sans-serif;
+  --primary-color: #cfffe2; /*Mint*/
+  --secondary-color: #a2d5c6; /* cyan*/
+  --highlight-color: #f6f6f6; /*light grey*/
+  --header-font: "Archivo Black", sans-serif;
+  --secondary-font: "Kite One", sans-serif;
 }
 /*general styles*/
 body {
-    background-color: var(--primary-color);
-    font-family: var(--secondary-font);  
+  background-color: var(--primary-color);
+  font-family: var(--secondary-font);
 }
-h1,h2,h3{
-    font-family: var(--header-font); 
+h1,
+h2,
+h3 {
+  font-family: var(--header-font);
 }
-main{
-    background-color: var(--secondary-color);
+main {
+  background-color: var(--secondary-color);
 }
 /*custom classes to replace bootstrap ones so updates are easier if needed in future*/
-.margins{
-    margin-top:0.5rem;
-    margin-bottom: 0.5rem;
+.margins {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
-.center{
-    display:flex;
-    justify-content:center;
-    align-items: center;
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.centerc{
-    display:flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
+.centerc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.text-middle{
-    text-align:center;
+.text-middle {
+  text-align: center;
 }
 /*class to push footer to bottom*/
-.main-body{
-    display:flex;
-    flex-direction: column;
-    min-height:100vh;
+.main-body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 /*changes button colours*/
-.btn{
-    color:var(--highlight-color);
+.btn {
+  color: var(--highlight-color);
 }
-.btn:hover{
-    background-color:var(--highlight-color);
-    color:black;
-    border-color: black;
+.btn:hover {
+  background-color: var(--highlight-color);
+  color: black;
+  border-color: black;
 }
-a,link{
-    text-decoration: none;
-    color:rgba(27, 5, 5, 0.884);
-    font-weight:900;
+a,
+link {
+  text-decoration: none;
+  color: rgba(27, 5, 5, 0.884);
+  font-weight: 900;
 }
-.form-control, .form-select{
-    background-color: var(--highlight-color);
+.form-control,
+.form-select {
+  background-color: var(--highlight-color);
 }
 /* hover feature for all form inputs*/
-.form-control:hover, .form-select:hover{
-    background-color: black;
-    color:var(--highlight-color);
+.form-control:hover,
+.form-select:hover {
+  background-color: black;
+  color: var(--highlight-color);
 }
 /*box shadow code for all images and links*/
-img:hover{
-    box-shadow:0px 15px 25px rgb(10, 10, 10);
-    transform: translateY(-2px);
+img:hover {
+  box-shadow: 0px 15px 25px rgb(10, 10, 10);
+  transform: translateY(-2px);
 }
-    a:hover{
-    box-shadow:0px 15px 25px rgb(10, 10, 10);
-    transform: translateY(5px);
+a:hover {
+  box-shadow: 0px 15px 25px rgb(10, 10, 10);
+  transform: translateY(5px);
 }
 /*navbar*/
-.navbar-nav li a{
-    color:var(--highlight-color);
+.navbar-nav li a {
+  color: var(--highlight-color);
 }
 /*Key Information*/
-.carousel-item{background-color: black;}
-.carousel-item p{
-    text-transform: uppercase;
-    font-weight: bold;
-    color:var(--highlight-color);
+.carousel-item {
+  background-color: black;
+}
+.carousel-item p {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: var(--highlight-color);
 }
 /*membership section*/
-#membership ul{
-    list-style-type: none;
-    text-align: center;
-    padding-left: 0%;
+#membership ul {
+  list-style-type: none;
+  text-align: center;
+  padding-left: 0%;
 }
-#membership-cards, #social-links,#opening-times{
-    display:flex;
-    justify-content: space-around;
+#membership-cards,
+#social-links,
+#opening-times {
+  display: flex;
+  justify-content: space-around;
 }
 /*custom width for membership cards */
-#bronze, #silver, #gold{
-    display: flex;
-    justify-content: center;
-    width:16rem;
+#bronze,
+#silver,
+#gold {
+  display: flex;
+  justify-content: center;
+  width: 16rem;
 }
 /*changes background colour of cards to better fit with style*/
-.card-body{
-    background-color: var(--highlight-color);
+.card-body {
+  background-color: var(--highlight-color);
 }
-#membership-button{ 
-    display:flex;
-    align-items: center;
-    justify-content: center;
+#membership-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /*whats on table*/
-#classestable, #classestable1{
-    background-color: transparent;;
-    font-size: x-small;
+#classestable,
+#classestable1 {
+  background-color: transparent;
+  font-size: x-small;
 }
-#classestable th, #classestable1 th, #classestable td, #classestable1 td{
-    background-color: transparent;
-    border-color: var(--highlight-color);
+#classestable th,
+#classestable1 th,
+#classestable td,
+#classestable1 td {
+  background-color: transparent;
+  border-color: var(--highlight-color);
 }
 /*confirmation*/
 /* background colors different to rest so that when main content moves header background color doesnt appear underneath*/
-#confirm-page{
-    background-color: var(--secondary-color);
+#confirm-page {
+  background-color: var(--secondary-color);
 }
-#confirmationH{
-    background-color: var(--primary-color);
-    min-width:100vw;
-    align-items: center;
+#confirmationH {
+  background-color: var(--primary-color);
+  min-width: 100vw;
+  align-items: center;
 }
 /*changes font on confirmation page so looks like secondary text but is header for semantics*/
-#altheading{
-    font-family: var(--secondary-font);
+#altheading {
+  font-family: var(--secondary-font);
 }
 /*footer*/
-#footer i{
-    color: var(--highlight-color);
-    padding:1em;
+#footer i {
+  color: var(--highlight-color);
+  padding: 1em;
 }
 /* reduces font size so more responsive on smaller screens*/
-#footer{
-    color: var(--highlight-color);
-font-size: x-small;
+#footer {
+  color: var(--highlight-color);
+  font-size: x-small;
 }
-#opening-times th, #opening-times td{
-    color:var(--highlight-color);
+#opening-times th,
+#opening-times td {
+  color: var(--highlight-color);
 }
-@media (min-width: 768px){
+@media (min-width: 768px) {
   /*index.html header order for tablet and larger*/
-    #header-pic{
-        order:2;
-        height:100%;
-    }
-    #header-title{
-        order:1;
-        text-align:center;
-    }
-    #header-text{
-        order:3;
-    }
-    /*picture alignment in take-the-tour page*/
-     .ttt-pics{
-       min-height:236.05px;    
-    }
+  #header-pic {
+    order: 2;
+    height: 100%;
+  }
+  #header-title {
+    order: 1;
+    text-align: center;
+  }
+  #header-text {
+    order: 3;
+  }
+  /*picture alignment in take-the-tour page*/
+  .ttt-pics {
+    min-height: 236.05px;
+  }
 }
-@media (min-width: 1200px){
+@media (min-width: 1200px) {
   /* image sizing for larger images take the tour page*/
- .ttt-pics{
-    min-height:250.31px;
-}
+  .ttt-pics {
+    min-height: 250.31px;
+  }
 }
 /*image sizing for xl screens*/
-@media (min-width: 1400px){
-.ttt-pics{
-    min-height:292.5px;
-}
+@media (min-width: 1400px) {
+  .ttt-pics {
+    min-height: 292.5px;
+  }
 }
