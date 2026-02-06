@@ -212,10 +212,9 @@ The favicons in the navbar and footer are also from google Gemini.
 </details>
 
 </details>
-<details>
 
 [back to top](#ironclad-fitness)
-
+<details>
  <summary> 2. Features </summary>
 
  ---
@@ -273,8 +272,6 @@ The favicons in the navbar and footer are also from google Gemini.
  ![text-carousel](./assets/images/readme-images/text-carousel.png)
  </details>
  </details>
- 
-[back to top](#ironclad-fitness)
 
  #### Features left to implement
  ---
@@ -282,6 +279,9 @@ The favicons in the navbar and footer are also from google Gemini.
  + Live updates and peak times have been left to implement at a later date once more data has been collected to provide more accurate results.
  + details on qualifications also to be added as not seen as crucial for this stage of the development
 </details>
+
+[back to top](#ironclad-fitness)
+
 <details>
  <summary>3. Technologies used </summary>
  
@@ -292,17 +292,18 @@ The favicons in the navbar and footer are also from google Gemini.
   + Google Gemini for photos and company logo used in navbar and copyright at bottom of page 
   + Github for deployment. 
  </details> 
- <details>
 
 [back to top](#ironclad-fitness)
 
+<details>
  <summary>4. Testing</summary>
  
  ---
 +  Manual testing was carried out once uploaded checked all images loaded properly and all links worked correctly and everything behaved as it should.
-+ FOllowing manual testing I noticed the following:
-+ First batch of photo werent inkeeping with the layout and theme of the page and were not reacting properly as heights were comig up short so took the desicion to delete all pictures and use AI generated pictures which helped load times and were still good quality images but with a file size about 90% smaller sacrificing a tiny bit of image quality for better visuals and a better overall build.
++ Following manual testing I noticed the following:
++ First batch of photo werent inkeeping with the layout and theme of the page.They were  also not reacting properly as heights were coming up short so took the desicion to delete all pictures and use AI generated pictures. This helped load times and were still good quality images but with a file size about 90% smaller sacrificing a tiny bit of image quality for better visuals and a better overall build.
 + Photos were not being as reactive and sizing was still not acting as intended so an extra css class .ttt-pics has been added in to provide a min-height for alignment purposes as screen gets larger to keep it responsive and looking as it should.
++ This was done with media querys at 768px, 1200px, and 1400px wide to make sure it couldnt change from intended layout.
 + Once deployed first round of lighthouse testing was not up to scratch as the photos too large and taking too long to load.
 + Tried converting to webp file types and compressing them which improved the load time considerably but was still taking considerably longer than needed.
 + Fixed this by compressing and reducing image size as well as converting to avif files and load times improved comsiderably.
@@ -310,17 +311,16 @@ The favicons in the navbar and footer are also from google Gemini.
 <details>
 <summary>Lighthouse tests screenshots</summary>
 
- ![lighthouse test for index.html](/assets/images/readme-images/lighthouse-test-index.png) 
++ ![lighthouse test for index.html](/assets/images/readme-images/lighthouse-test-index.png) 
 + ![lighthouse test for take the tour](/assets/images/readme-images/lighthouse-test-ttt.png)
 + ![lighthouse test for whats on](/assets/images/readme-images/lighthouse-test-whats-on.png)
 + ![lighthouse test for confirmation](/assets/images/readme-images/lighthouse-test-confirmation.png)
 </details>
 
-+ All lighthose testing in 90s apart from whats-on page as this page displays more content in the form of google fonts slowing down loading times.
-+ All photos have been updated to Ai generated ones which have then been converted to avif files and compressed so are of a good enough quality for normal visuals but lower the best practices scores by a couple of percent but improve load times by almost 20% which i believe is a good compromise as if it was a real company photos would all be provided by the company 
-
++ All lighthouse testing in 90s apart from whats-on page as this page displays more content in the form of google fonts slowing down loading times.
++  ALl the AI generated pictures once converted to avif files and compressed lowered the best practices score by a couple of percent but improve load times by almost 20% which i believe is a good compromise as the quality difference is unrecongnisable to the user and is only the computer picking up on the diference in quality.
 <details>
-<summary>HTML tests screenshots</summary>
+<summary>html tests</summary>
 
 ![html test index.html](./assets/images/readme-images/index.html%20check.png)
 ![html test ttt.html](./assets/images/readme-images/ttt.html-check.png)
@@ -359,18 +359,17 @@ The favicons in the navbar and footer are also from google Gemini.
 
 
 </details>
-<details>
+
 
 [back to top](#ironclad-fitness)
-
+<details>
 <summary> 5 . Deployment</summary>
 
 ---
 
 [To view site](https://devildex91.github.io/ironclad-fitness/)
 <details>
-
- <summary>Site has been deployed through Github pages by:</summary>
+<summary>Site has been deployed through Github pages by:</summary>
 
  ---
 
@@ -401,10 +400,10 @@ The favicons in the navbar and footer are also from google Gemini.
 
 + ##### Note for anybody working on this code that bootstrap 5.3 has been used to create much of the page and should be reused by yourself to ensure it all works as intended.
 </details>
-<details>
 
 [back to top](#ironclad-fitness)
 
+<details>
 <summary> 6. Credits</summary>
 ---
 
